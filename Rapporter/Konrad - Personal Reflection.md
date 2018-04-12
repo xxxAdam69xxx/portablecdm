@@ -28,28 +28,44 @@ Last week I wrote down learning Git as my objective along with getting a better 
 
 # Week 3
 
+
 What do I want to learn or understand better?
 
+
 Where I am: Since last week I got a better understanding of the whole PortableCDM codebase. We still haven’t met the product owner so I still don’t have his perspective on the app. 
+
 Where I want to be: After getting the IDE to work finally I realize I need to get better at coding in JavaScript and learning Exponent. I also need to see how it integrates with Android Studio which I’m familiar with since earlier. Also have a good understanding of the terminals point of view.
+
 How to get there: First we will meet with the product owner, and later I will learn the whole environment by simply starting to code and googling when I’m stuck (or getting help from someone else). From past experience that has been the quickest way for me to learn stuff.
+
 
 How can I help someone else, or the entire team, to learn something new?
 
+
 Where I am: I think that I’m the only one who has successfully set up the environment currently, so I will be able to help whoever needs help with that.
+
 Where I want to be: I want to be able to help out whoever needs help with understanding the whole PortableCDM environment, Exponent and JavaScript.
+
+
 How to get there: Same answer as in the first question.
+
 
 What is my contribution towards the team’s application of scrum?
 
 Where I am: I helped write the preliminary user stories together with the team, and also helped with setting up a shared Trello board. 
+
 Where I want to be: Next week will be the first proper sprint and therefore the scrum part will be more important than earlier. I want to makes sure to be able to attend all meetings and so forth.
+
 How to get there: Just keep doing the same as last week.
+
 
 What is my contribution towards the team’s deliveries? 
 
+
 Where I am: I helped in creating the user stories from the scenario available on the course website. I also got the programming environment to work on my laptop, and will help those who need it next week. Both of these made me achieve last weeks goal.
+
 Where I want to be: I want to be able to get as many user stories done as possible. Also to refine the current ones we have after talking to our contact person at the terminal.
+
 How to get there: I will do this by attending the meeting next week and making sure to know as much as I can about the environment and the interactions before we actually start with the coding.
 
 
