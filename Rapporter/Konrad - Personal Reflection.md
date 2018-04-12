@@ -29,7 +29,7 @@ Last week I wrote down learning Git as my objective along with getting a better 
 # Week 3
 
 
-What do I want to learn or understand better?
+**What do I want to learn or understand better?**
 
 
 Where I am: Since last week I got a better understanding of the whole PortableCDM codebase. We still haven’t met the product owner so I still don’t have his perspective on the app. 
@@ -39,7 +39,7 @@ Where I want to be: After getting the IDE to work finally I realize I need to ge
 How to get there: First we will meet with the product owner, and later I will learn the whole environment by simply starting to code and googling when I’m stuck (or getting help from someone else). From past experience that has been the quickest way for me to learn stuff.
 
 
-How can I help someone else, or the entire team, to learn something new?
+**How can I help someone else, or the entire team, to learn something new?**
 
 
 Where I am: I think that I’m the only one who has successfully set up the environment currently, so I will be able to help whoever needs help with that.
@@ -50,7 +50,7 @@ Where I want to be: I want to be able to help out whoever needs help with unders
 How to get there: Same answer as in the first question.
 
 
-What is my contribution towards the team’s application of scrum?
+**What is my contribution towards the team’s application of scrum?**
 
 Where I am: I helped write the preliminary user stories together with the team, and also helped with setting up a shared Trello board. 
 
@@ -59,7 +59,7 @@ Where I want to be: Next week will be the first proper sprint and therefore the 
 How to get there: Just keep doing the same as last week.
 
 
-What is my contribution towards the team’s deliveries? 
+**What is my contribution towards the team’s deliveries?**
 
 
 Where I am: I helped in creating the user stories from the scenario available on the course website. I also got the programming environment to work on my laptop, and will help those who need it next week. Both of these made me achieve last weeks goal.
