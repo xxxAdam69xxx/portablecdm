@@ -1,4 +1,4 @@
-****WEEKLY REFLECTION, WEEK 1****
+# WEEKLY REFLECTION, WEEK 1
 
  **The chosen scope of the application under development including priority of features and for whom you are creating value**
 
@@ -68,7 +68,7 @@ We haven’t yet had any guest lectures or literature reviews. In the future we 
 
 
 
-****WEEKLY REFLECTION, WEEK 2****
+# WEEKLY REFLECTION, WEEK 2
 
 The chosen scope of the application under development including priority of features and for whom you are creating value
 As of now, we don’t have a fully clarified scope of the application yet. However, what we do have is a specified client that we will work together with. In our case, the client functions as a terminal. In other words, our client is responsible for handling vessels both departing and arriving. Today, we don’t have a contact person assigned and therefore we have not made a priority of features, as we are not aware of the prefered values and features that the client is expecting from the application. In the introduction to the project, we were told to create a user story on our own. This, we will finish after Easter, when we have processed the project and its scope a bit more, thus being more full-fledged when creating the user story.
