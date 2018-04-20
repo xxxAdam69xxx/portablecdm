@@ -271,15 +271,16 @@ What to do: Learn about the specific needs from the terminal worker. Edit our us
 
 **The design of your application (choice of APIs, architecture patterns etc)**
 
-Now: After reading some litterature we know some more about the scenario and what is expected. Thus we have written some user stories as far as our knowledge reaches. Unfortunately we did not get an answer from our contact person in time to organize a meeting.
-Goal: As we haven’t yet had the opportunity to meet our contact person we hope to do that as soon as possible. Then we can double check our user stories and get a better picture of the project.
-What to do: Set up a meeting with our contact person. 
+Now: We’ve given the user stories a first approach and started a dialog with both the project owners and our contact person.
+Goal: Our goal is to further specify the design of the application. We want to understand the scenario better as well.
+What to do: Next week we will have a meeting with our contact person at the terminal. Then we will discuss what direction the application will take.
+
 
 **The behavioural overview of your application (for instance through use cases, interaction diagrams or similar)**
 
-Now: We have set up a few user stories. Currently we are also setting up the development area to get things running.
-Goal: The goal is to talk to our contact person and in collaboration state the functions of the app.
-What to do: The next step is as above to get a meeting with our contact person.
+Now: Some people in the group have been able to get the application running, which is a huge leap forward. We have started a discussion about what parts in the application we want to focus on.
+Goal: Next week we are meeting our contact person. In collaboration with him and the project owners we hope to specify how the application should operate.
+What to do: Have a meeting in the group about thoughts to bring to the contact person as well as discussing these thoughts with him.
 
 **The structural overview of your application (such as class diagrams, domain models or component diagrams)**
 
