@@ -237,3 +237,123 @@ What to do: Will read a bit more about the INVEST and SMART criterias to make su
 Also want to note that unfortunately none of us could attend Wednesday exercise in Lindholmen so we can’t comment on that.
 
 
+# WEEKLY REFLECTION, WEEK 4
+
+# WEEKLY REFLECTION, WEEK 4
+
+ **The chosen scope of the application under development including priority of features and for whom you are creating value**
+
+Now: This week, we unfortunately have not met up with Mikael as he got impediments. However, we have still developed these together with the product owners and they are now more in line with their scope. The prioritization remains the same, as we will ask about this on our appointment with Mikael and what his prioritization is. Therefore, our scope and user stories are subjects to change and it will be interesting to see where they will end up after our meeting with Mikael next week. 
+
+Goal: This goal remains the same as last week, due to Mikael not being able to meet and postponing our meeting. For next week, we want to meet up with Mikael and connect our user stories with his own perspectives of what is important in the development of the application. Here, we will gain useful insights for further development, and also beneficial perspectives to be used together with the scenario. Furthermore, we want to prioritize our user stories and start to work with them in the application. 
+
+What to do: In order to complete our goal for next week, we will have a meeting with Mikael and come as prepared as we can, to ask relevant questions and to understand his specifications more fully. Also, we will talk more with our product owners during the supervision to be in line with them and take their insights in consideration together with Mikael’s specifications and needs. Furthermore, we will try to start coding a bit and have something to show the product owners in order to get appropriate response on our work.
+
+**Your social contract, which means you should create one in the first week**
+
+Now: This week we have added the individual roles in the social contract, so that everyone can remember their respective roles and the responsibilities that come with them. 
+
+Goal: Next week, we want to add the different parts of the application that each member is responsible of and that will help everyone remember what they are supposed to produce and without misunderstanding between members of the team. It will provide clarity and help us keep track of what we want to produce individually. Also, it will be beneficial in knowing whom to contact if one comes across a certain problem. 
+
+What to do: Just a simple update in our contract, with regard to the goal stated above.
+
+**The success criteria for the team in terms of what you want to achieve with your application**
+
+Now: Our success criteria is to make the terminal worker satisfied with the app. So our success criteria is unchanged since last week.
+Goal: We want to adjust our success criteria to make it more specific. Hopefully we can do this as we understand more about our customer and his needs.
+What to do: Talk with the terminal worker and hear more specifically what it will take to make him satisfied with the app. Learn about what features he needs and doesn’t need.
+
+**Your acceptance tests, such as how they were performed and with whom**
+
+Now: We have no acceptance tests as of now.
+Goal: Formulate an acceptance test for each user story.
+What to do: Learn about the specific needs from the terminal worker. Edit our user stories to make them more specific so that we can properly formulate acceptance tests for each one of them.
+
+**The design of your application (choice of APIs, architecture patterns etc)**
+
+Now: After reading some litterature we know some more about the scenario and what is expected. Thus we have written some user stories as far as our knowledge reaches. Unfortunately we did not get an answer from our contact person in time to organize a meeting.
+Goal: As we haven’t yet had the opportunity to meet our contact person we hope to do that as soon as possible. Then we can double check our user stories and get a better picture of the project.
+What to do: Set up a meeting with our contact person. 
+
+**The behavioural overview of your application (for instance through use cases, interaction diagrams or similar)**
+
+Now: We have set up a few user stories. Currently we are also setting up the development area to get things running.
+Goal: The goal is to talk to our contact person and in collaboration state the functions of the app.
+What to do: The next step is as above to get a meeting with our contact person.
+
+**The structural overview of your application (such as class diagrams, domain models or component diagrams)**
+
+Now: At this stage we have been introduced to the project, but we have not yet met our client. At the moment it seems very unclear in what our task is, other than the basic application demo and code we have installed since last week. We were supposed to meet with our client the week after the easter break, but this meeting will occur next week instead. Hopefully things will become clearer at that point, but for now, we do not have a clear enough view to design any class diagrams, domain models, or component diagrams.
+
+Goal: Meet with client.
+
+What to do: Meet with client, then create structural overview of application.
+
+
+**Your user stories in terms of using a standard pattern, acceptance criteria, task breakdown and effort estimation**
+
+Now: At this stage we have installed the default project app in Android studio, but we have not yet met our client. We still need to meet our client for a better picture, but so far, we have created initial user stories after consulting the product owners and gone through the scenarios thoroughly.
+
+Goal: Meet with client, finalize initial user stories.
+
+What to do: Meet with client, update user stories.
+
+
+**The three KPIs you use for monitoring your progress**
+
+Now: 
+Communication - Still haven’t had the chance to meet the contact person from the terminal and establish a communication channel. The internal communication has been going well. Didn’t mention it last time but it is through Facebook’s messenger mostly. Another part added this week will be communication with our product owners, in the shape of weekly meetings during the “handledning”.
+Estimation Accuracy - It was very hard to estimate how much time getting everyone up to speed with the development environment would take. Hopefully this will be better next week.
+Velocity Consistency - Most of the group worked for about 20 hours this week, or a little bit less, most of this time was spent on getting the environment ready to go and better understanding the viewpoint of the terminal worker through the scenario.
+Goal: Have good communication with the product-owners and “customer”. Make the estimates of our user stories as close to reality as possible on monday and put in about 20 hours of work per person for the week.
+What to do: Pretty much same as last week, will be interesting to see how well we can communicate with the customer, so far e-mail communication has been slow but working alright, maybe we need to change the channel for next week? We need to distribute the user stories so that every team member will get about 20 hours of work in total for the week. Also take into account that we were way off in estimating how long setting up the environment would take.
+
+**Code quality using a tool such as Findbugs (1 point if your code includes issues concerning correctness or bad style, 2 points if you have dodgy or performance issues and 3 points if the code is fine), only asses the code you have written yourself**
+
+Now: Exactly the same as last week, still haven’t written any lines of code, although we thought we would by this time in last weeks reflection.
+Goal: Write good code.
+What to do: Same as we wrote last week, we will do this by carefully planning and finding the optimal high-level solutions before we start coding, but also through checking each other's code.
+
+**The roles you have used within the team**
+
+Now: Gabriel is still our team’s Scrummaster and is attending some valuable meetings with Scrummasters from other project groups. Emil is our contact person. Since the coding process is about to start the rest of the group is within the developer team as of now.
+
+Goal: Specify even more roles if possible, and if needed switch roles within the team. Build on our developer team.
+
+What to do: Work closely together to determine new roles if needed.  
+
+**The agile practices you have used for the current sprint**
+
+Now: After setting up a board on Trello last week we’ve really started to implement Scrum as an agile practice. Scrum will still be our main agile practice and framework. After next week when we can start our coding process it will be very useful. 
+
+Goal: Develop our user stories and Trello-board, to have efficiency in our sprints and enable agile development. XP is something that was mentioned as an agile practice, maybe there is a way to implement it later.
+
+What to do: Keep improving our Scrum knowledge and use it as an agile practice to benefit our development. 
+
+**The time you have spent on the course (so keep track of your hours so you can describe the current situation)**
+
+Now: As before, we have worked approximately 20 hours each on the project. Most of the time has been spent in setting up the programming environment for each member, as it was a lot of problems to handle in setting that up. Additionally, we (not everyone, but the majority) have been attending both the lecture and the supervision. On top of this, we have been spending time further developing our user stories and explored the code together with the application. 
+
+Goal: To continue working along the same lines as we currently are in the following weeks, maintaining the scheduled level of work. Emphasis next week will probably be on coding, together with the appointment with Mikael and attending the lecture and supervision. 
+
+What to do: Stick to the schedule in order to avoid pushing work ahead and also keep filling out our Excel sheet to keep track of our hours, in order to give a sufficient review of next week when speaking of how we have spent our hours and with what. 
+
+**The sprint review (either in terms of outcome of the current week's exercise or meeting the product owner)**
+
+Now: Our preliminary user stories were reviewed together with the product owner on wednesday and refined throughout the week afterwards. They will be further refined after the meeting with the customer on monday. We have a working programming environment for most of the group, but this was not shown to the product owner.
+Goal: Next week the goal is to be able to able to show some coding progress to the product owners on wednesday, and potentially to the customer, whenever a new date for a second meeting will be set. Another goal is to make better use of scrum next week, by meeting on monday and setting up even better user stories.
+What to do: To do this we will further refine our user stories to be more thinly sliced and vertical on monday after our meeting. This will allow us to have some working demo on wednesday, hopefully.
+
+**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+
+Now: Since we haven’t actually started coding yet there hasn’t been any need for an IDE or version control system, although it is something that we will talk about and try to set up soon so that it isn’t an issue when we actually start. No changes to our scrum board either
+Goal: Our goal is to have an IDE and a version control system that everyone understands and know how to use so that we can work efficiently.
+What to do: We need to sit together and discuss how to set these up.
+
+**Relation to literature and guest lectures (how do your reflections relate to what others have to say?)**
+
+Now: We have not had any guest lectures this week so there we can’t talk about it. However we have read some of the Marine IT litterature posted on github.
+
+Goal: We want to know more about the harbor, not just about Terminal 1 works. This help us get a bigger overview and be able to see opportunities where we can collaborate with other teams.
+
+What to do: Read all of the Marine IT litterature.
