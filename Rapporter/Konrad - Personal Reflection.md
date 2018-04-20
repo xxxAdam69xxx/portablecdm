@@ -69,4 +69,53 @@ Where I want to be: I want to be able to get as many user stories done as possib
 How to get there: I will do this by attending the meeting next week and making sure to know as much as I can about the environment and the interactions before we actually start with the coding.
 
 
+# Week 4
+
+
+**What do I want to learn or understand better?**
+
+
+Where I am: Yesterday, I started playing with the code a little bit to see if I understand it. Together with Emil we tried to reverse the ordering of events for a portcall to see if we could manage it, but we actually couldn’t. Unfortunately, we didn’t manage to do it, but we only tried very briefly. I do have a better understanding of exponent and where android studio comes in right now though. 
+
+Where I want to be: Be able to see which part in the code I need to change in order to make the high-level changes I want and the be able to make changes in the code easily. 
+
+How to get there: Simply by experimenting like I did with trying to reorder the portcall listview, but this time try for more than 15 minutes.
+
+
+**How can I help someone else, or the entire team, to learn something new?**
+
+
+Where I am: This week I helped most of the team to get their development environment up and ready, and recommended sublime as their editor. I also wrote a short summary of the relevant parts from the scenario from github together with Emil.
+
+Where I want to be: Understand JavaScript and the codebase well enough to help my teammates when they struggle with something. Also I will try to learn Git well enough to teach it.
+
+
+How to get there: Same answer as in the first question.
+
+
+**What is my contribution towards the team’s application of scrum?**
+
+Where I am: I was at the wednesday meeting with the product owners and discussed our user stories with them. Helped in refining these later on as well. Helped plan out the next week and what we want to accomplish before that. This week’s sprint still didn’t feel completely legit though.
+
+Where I want to be: Once again I think that next week will be the first proper sprint, since we are meeting the terminal contact person on monday and will have a meeting directly afterwards.
+
+How to get there: Make sure we have clearly defined tasks for the sprint next week. Make them on monday.
+
+
+**What is my contribution towards the team’s deliveries?**
+
+
+Where I am: As mentioned before I helped my team get their development environments ready this week, which was our main deliverable, since we haven’t had the chance to meet our contact at terminal 1 yet (meeting this monday). Since this was our main user story for this week, I (kinda) accomplished my goal from last week. We hoped to be able to meet with our contact person this week, but he could do it on next monday earliest, so the coming parts are similar to last week’s.
+
+Where I want to be: I want to be able to get as many user stories done as possible. Also to refine the current ones we have after talking to our contact person at the terminal.
+
+How to get there: I will do this by attending the meeting on monday and making sure to know as much as I can about the environment and the interactions before we actually start with the coding.
+
+
+
+
+
+
+
+
 
