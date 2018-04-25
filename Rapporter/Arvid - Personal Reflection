@@ -1,25 +1,19 @@
 what do I want to learn or understand better?
-
-Now: I now understand user stories better and I feel like I can formulate them in a good way. We also have gathered some new knowledge from our customer which will be helpful. 
-Goal: I want to understand how a real sprint works in practice. I also want to know what the best way to delegate different user stories, more specifically, I want to find out which team size is most suitable for us, right now we are considering splitting up into 4 groups of 2 members each, but that is not necessarily the best constellation.
-What to do: Get started doing sprints and coding sessions in practice and find out at our next sprint meeting how everyone did and apply the gained knowledge in the following sprint.
+Now:  I want to understand exactly how the app code is connected to the app features. Right now I feel pretty lost when coding and it’s mostly a process of trial and error. Regarding last weeks goal: I now understand much better how a sprint works.
+Goal: To understand how the code works and how to properly rewrite it to achieve my sprint goals
+What to do: Sit down for an extended amount of time and walk through the code step by step. Consult with my sprint-teammate on which code snippets we should edit to achieve our sprint goals.
 
 how can I help someone else, or the entire team, to learn something new?
-
-Now: My team is still struggling to get all of the technical stuff up and running, things like github, android studio etc. We’re all working together to get it to work but everyone is on different levels and everyone has different hardware to work with so it’s certainly not an ideal situation.
-Goal: to get everyone up and running and coding as soon as possible
-What to do: We will sit down next week and make sure that everyone has everything up and running. As well as make sure that everyone is aware of basic github functionality, as well as other basic technical knowledge relating to this project.
-
+Now: We still have some struggles with getting things like github up and running, but at least we know it works for me and Konrad. We’re helping our teammates get up and running as well but disseminating knowledge between everyone is not always easy since everyone is on different levels and are available at different times.
+Goal: Get everyone acclimated to the the code and how to rewrite it
+What to do: Sit down with the team, not only my sprint partner, and try to explain the parts of the app where I have an insight that they don’t have. Try to explain which modules do what etc.
 
 what is my contribution towards the team’s application of scrum?
-
-Now : We have set up a trello account to better keep track of our user stories. This week I have contributed to the user stories by adding more specific details about the needs and requirements for each user story.
-Goal: We want to start our first real sprint. I want to help the team by specifying reachable sprint goals.
-What to do: We will sit down next week and decide on sprint goals, and delegate the different user stories. Hopefully we have specified them enough so that we can make some real progress. If not, then hopefully I can step in and break the tasks down into sub-tasks
-
+Now: I’ve been dividing user stories into tasks. I now realize that we probably won’t be able to complete a whole user story, but at least we can finish some tasks that make up the user story.
+Goal: To help my team members to divide their user stories into tasks that are reasonably doable with our time constraints.
+What to do: Talk with my team and suggest some tasks for every user story.
 
 what is my contribution towards the team’s deliveries? That means that for the personal learning objective you will each week write down what you have achieved in relation to last week's ambition (technologies, concepts and skills learnt as well as how this was achieved), what you would like to achieve for the next week and how to make the change happen. The first week of the course you describe the current situation by motivating a learning objective. It is perfectly fine to change objective/s each week as long as you can motivate the change and you evaluate the outcome of the previous week (e.g. describing the current situation).
-
-Now: I have not yet completed last weeks goal since we haven’t started using user stories in practice since we haven’t begun our first sprint yet. Therefore I will not change my learning objective.
-Goal: To learn how to use user stories in an effective way
-What to do: At next weeks meeting we will look closer at our user stories and break them down into sub-tasks. After that we will begin our sprint and during the sprint I have an opportunity to understand the use of user stories in practice.
+Now: I have completed last weeks goal, since I now know how to use user stories in an effective way. Now that I am more familiar with the code, and it’s complexity, I can now better formulate user stories that are reachable.
+Goal: My new goal is complete at least one task within my assigned user story for this sprint.
+What to do: I will sit down a little bit each day and get better acquainted with the code. Thereafter I will try to achieve my task by changing the code little by little and make heavy use of trial and error.
