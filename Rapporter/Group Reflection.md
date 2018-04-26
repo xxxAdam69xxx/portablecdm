@@ -358,3 +358,150 @@ Now: We have not had any guest lectures this week so there we can’t talk about
 Goal: We want to know more about the harbor, not just about Terminal 1 works. This help us get a bigger overview and be able to see opportunities where we can collaborate with other teams.
 
 What to do: Read all of the Marine IT litterature.
+
+------------------------------------------------------------------------------------------------------
+# WEEKLY REFLECTION, WEEK 5
+
+ **The chosen scope of the application under development including priority of features and for whom you are creating value**
+Now: As we now have met Mikael and his co-workers, we have gotten useful insights in how the terminal operates and what kind of information and features they would like to see be displayed in the application. Unfortunately, they are not using the application as of now and their knowledge about the app was scarce. However, they still provided us with useful as stated above. 
+
+Together with this we have made a priority list as follows: Change the Portcall view to show vessels sorted by ETA, change the berth view to give an overview of what is happening in different berths without having to click on each one separately, calculate ETB, ETC, ETD and mediate these to other parties, would like to see what type of cargo and volume so the estimation of ETC can be more accurate and readily available upon berthing (talk to ship agent or vessel).
+To whom we are creating value are: Product owner, terminal, also all other parties (at this time we think that the ship agent will be the actor with most use of our information).
+
+Goal: For next week, we want to continue developing the priority and features for the application. We will do this in cooperation with mainly the product owners, and also the terminal workers. 
+
+What to do: In order to cooperate with the product owners, we need to be able to meet them and have them look at our user stories and the current prioritization that we have. Unfortunately the product owners left before we could show them the user stories (they left early and didn’t see us) though so we will send them by email to get feedback. However we did not want to wait with our sprint to get feedback from them so we decided to start in the meantime and if necessary we can make some tweaks during the sprint depending on what they anwer.
+
+**Your social contract**
+
+Now: This week, our group moved our reflection day to wednesday, due to the fact that our regular meetings will be held on mondays and wednesdays. Our group dynamics are good.
+
+Goal: Keep up the social contract and if any problems occur dynamically within the group, these will be of interest to bring up in the contract.
+
+What to do: Work together and as stated above, if any problems occur, these will reflect in the contract.
+
+**The success criteria for the team in terms of what you want to achieve with your application**
+
+Now: We have discussed the success criteria that define our application. We agreed upon the following success criteria:
+To make the terminal, product owner and course administrator satisfied
+Achieved all user stories in the application
+Provide other actors with value, for instance relevant data from the terminal in an easily accessible way
+
+Goal: Work towards these criteria, update them when needed and also try to get response on them from our supervisor and/or product owner.
+
+What to do: Keep working and also get in touch with product owner/supervisor to get their view of the success criteria. 
+
+
+**Your acceptance tests, such as how they were performed and with whom**
+
+Now: We have created a checklist as a definition of done in Trello for each user story, which defines the definition of done. These are shown below:
+It can handle all variations/combinations of input data that it should
+The code is clean
+The code has comments explaining the code
+The product owner approves
+On top of that each user story has another checklist called acceptance criterias that describes the things that have to be fulfilled for a user story to be ready for testing and set as done if the tester, who is another person, checks all the boxes in the acceptance criterias as well as definition of done. We showed Håkan our checklists and he said they said they looked good, we only had to do some small adjustments.
+
+Goal: Work towards these definitions of done, and improve the definitions if necessary in the future.
+
+What to do: We will talk about the acceptance tests next wednesday after the sprint review and change them if we feel it’s necessary
+
+**The design of your application (choice of APIs, architecture patterns etc)**
+
+Now: We have some initial thoughts of how the design should be made. Below is our initial thoughts of what APIs to use and which architecture pattern to use.
+API: One example is to make an API so other parties can interact with the data from the terminal
+Architecture patterns: Model-View-Controller, further development will be using the model-view-controller pattern. We will ask Håkan if this is possible or if there are other patterns more suitable for the application and the already existing code.
+Goal: Our goal is to be able to have a more substantial design, but this will come from us continuing to code and develop our own part of the application.
+
+What to do: As we have said above, the design of the application will become clearer as the coding progresses. Therefore, it is essential for us to continue with the code and get response from Håkan and the others. 
+
+**The behavioural overview of your application (for instance through use cases, interaction diagrams or similar)**
+
+Now: We have made a more theoretical approach to the overview of our application, as the coding part of the project has just started. However, as stated above, we have made a theoretical approach of this and can be read below. 
+Examples through screenshots of the application
+We want to modify the port call window so that the berths are clear and it shows future ETA’s
+We want to modify the vessel window so that you can see the cargo type and volume and click on it to edit/calculate ETC
+Goal: Our goal is to be able to have more substantial overviews in forms of screenshots for example. This will derive naturally from the fact that the application will be further developed and as we progress the more screenshots we will be able to upload and show. 
+
+What to do: This connects to what is stated above, as we continue to code and develop the application - the more we will be able to show here. 
+
+**The structural overview of your application (such as class diagrams, domain models or component diagrams)**
+Now: As we have not yet any substantial breakthroughs when it comes to coding, we have not yet any structural overview of the application to show.
+
+Goal: Hopefully next week, when we have coded more, we will be able to show a rough scheme of our overview and how we are thinking about the structure.
+
+What to do: By continuing to code, the goal above will come naturally from the fact that the development of the application will provide us with class diagrams etc. 
+
+**Your user stories in terms of using a standard pattern, acceptance criteria, task breakdown and effort estimation**
+
+Now: 
+We have developed our user stories together with the terminal and are waiting for our next response from our product owners
+Acceptance criteria and definition of done: Done, read above
+Task breakdown: We are doing these for each user story to be developed in each sprint
+Effort estimation: We have done these for each user story. The definition of effort estimation is hours, thus one hour is equal to one hour of effective work. The maximum capacity each week is 20 hours per member. Thus we have 6*20 hours of time to spend each week in total. 
+
+Goal: As our focus will move from the development of these user stories, our goal is to maintain them and develop them further if it is found necessary to do so. 
+
+What to do: As stated above, due to our focus being moved from here to the coding part, we will maintain these and if we are inclined to change or modify our user stories - we will do so. 
+
+
+**The three KPIs you use for monitoring your progress**
+Now:
+Communication: We have now met with the terminal workers and we have established our relation with them. Further communication will be mostly through emails with them. For instance, they have given us useful velocities when it comes to loading and unloading of oil. Furthermore, we have also established two separate communication channels within the team. The first one is on Messenger and here we will have a more informal communication with each other. The other is multiple Slack channels for everything formal related to the project. For instance, problems with code, design of the application and so on. 
+Estimation Accuracy: We have set up the estimates for each user story and these will be reflected on here, when each user story has been finished according to our definition of done. 
+Velocity Consistency: Referring to our velocity this week, each and everyone has spent about 20 hours on the project. 
+
+Goal: We want to continue with our great communication, both within the group and with everyone else outside of the group. After our meeting, our client has been answering much quicker. Also, we will be strict in using our two channels, with Slack being the more formal and Messenger being the more informal. Our estimation accuracy will be interesting to see next week, when we hopefully have fulfilled a few of the user stories. Therefore, they will be subject of reflection next week and connect them with our velocity consistency.
+
+What to do: We will continue working with the coding part and have our three KPIs in mind. 
+
+**Code quality using a tool such as Findbugs**
+
+Now: As we just have started coding, we have no use of Findbugs just yet.
+
+Goal: Have code available for checking next week.
+
+How to get there: Start working more on the code. 
+
+**The roles you have used within the team**
+
+Now: The roles remain the same as previously.
+
+Goal: Continue working with roles that support the project in the optimal way and if the roles are subject to change, this will be done in order to keep the momentum and keep our individual responsibilities.
+
+How to get there: Keep working the same way as long as it provides efficient results. Make changes further ahead if found to be necessary.
+
+**The agile practices you have used for the current sprint**
+
+Now: We have done general time estimates for each user story, in order to get a better understanding of how to design the coding process and get a better overview of the project from a time perspective. Additionally, we’ve set up a Slack channel to further improve and optimize the team’s communication and decrease clutter (lot of scrolling in Messenger). On Monday we will have a “daily scrum” to discuss how our sprint is going so far. We have 4 user stories during this sprint with two team members working on each.
+
+Goal: We didn’t have time to write tasks for the user stories together so each pair will do task breakdowns themselves, and time estimates on each task once the task breakdown is complete. This will provide more accuracy regarding the stories.
+
+How to get there: The team members involved in a user story may divide the tasks between them themselves. We will try to look at the scrum board during the week and remind each other to do things as planned.
+
+
+**The time you have spent on the course (so keep track of your hours so you can describe the current situation)**
+
+Now: Initially we had a preparation meeting through Skype on Sunday, discussing the scenario and making a plan ahead of the meeting with the terminal workers. This meeting then took place on Monday, and lasted around two hours. Afterward, we spent three hours in the afternoon setting up Android Studio, as well as updating some of the user stories. Finally, all of Wednesday was spent working on the GitHub repo for the group members, writing the group reflections, drawing a demo for the product owners, starting with a small amount of coding, as well as continuing with the user stories from Monday. 
+
+Goal: Spending 20 hours per week and person working on the project. 
+
+How to get there: With most of the preparation finally set up, most of the work from this point onward will be spent on the actual coding.
+
+**The sprint review (either in terms of outcome of the current week's exercise or meeting the product owner)**
+
+Now: Today our first real sprint is starting and we have divided 4 user stories between us so it will be interesting for us to see how it goes for us. On wednesday morning we will have a sprint review. 
+
+Goal: Because this is our first sprint it is really difficult to estimate how long user stories take and what our velocity is. So even if we fail to deliver all four user stories our main goal is to get familiar with coding and get better at estimating story points and velocity.
+
+How to get there: while developing we should write down how long time everything actually took so we know for next time.
+
+**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+
+Now: Listed all the questions we’d like to ask during Wednesday’s counselling. Color-coded the user stories in the backlog to be able to efficiently track relations in between them, providing an easily understood overview. Developed a repo that can be used with GitIgnores. Instead of having one board for each sprint and another board for the product backlog we now have everything in a single trello board. This will help us get a better view of everything that is happening and minimize the risk of a user story getting forgotten.
+
+Goal: Easy understanding of which tasks belong to which user story by using numbers in front of each card. Get the new repo to work on everyone’s computer
+
+How to get there: Color-coding also the tasks in the sprint board. 
+
+**Relation to literature and guest lectures (how do your reflections relate to what others have to say?)**
+We haven’t had time to read more literature due to other things being prioritized. There have also not been any guest lectures.
