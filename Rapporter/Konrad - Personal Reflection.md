@@ -112,6 +112,43 @@ Where I want to be: I want to be able to get as many user stories done as possib
 How to get there: I will do this by attending the meeting on monday and making sure to know as much as I can about the environment and the interactions before we actually start with the coding.
 
 
+# Week 5
+
+
+**What do I want to learn or understand better?**
+
+Where I am: I've gotten a better overview of the code and which parts interact with eachother, although I still sometimes find it difficult to know exactly where I can find the part of the code I'm looking for. I feel like not knowing JavaScript well enough is actually holding me back, and I feel like I have to switch my strategy from last week of just trying to code, to first learn a little bit more about JavaScript (promises and so on).
+
+Where I want to be: Be able to see which part in the code I need to change in order to make the high-level changes I want and the be able to make changes in the code easily. 
+
+How to get there: Learn some more JavaScript from some online tutorials, and also just keep experimenting with the code.
+
+
+**How can I help someone else, or the entire team, to learn something new?**
+
+Where I am: This week I set up a shared repository together with Arvid so that we can actually work together. I helped some of the team members to understand how that would work, what gitignores do and so on.
+
+Where I want to be: Understand JavaScript and the codebase well enough to help my teammates when they struggle with something. 
+
+How to get there: Same answer as in the first question.
+
+
+**What is my contribution towards the team’s application of scrum?**
+
+Where I am: I was at the monday and wednesday meeting. On monday we made new/refined our user stories after the meeting with the customer (terminal) and tried to prioritize them. On wednesday we made some time estimations, prioritized the tasks and distributed the user stories for the first legit sprint inside the group. Unfortunately the product owners kinda missed us during the "handledning" so we didn't get their perspective.
+
+Where I want to be: Make sure that we distributed the user stories and tasks for each sprint evenly between the team members, and that our estimates of velocity and effort for each user story are as precise as possible. Also still be present during each meeting.
+
+How to get there: Look back next week at our estimates and see how they stacked up against our actual outputs. See which team members have higher velocities.
+
+**What is my contribution towards the team’s deliveries?**
+
+Where I am: As mentioned I set up the shared github repo and fixed our gitignore. I was also present during the meeting with the terminal to get their point of view and most important features. I also helped some of my team members when they encountered problems with Android Studio or exponent. My user story, together with Lucas, this week is to be able to see the ETAs and information about N.O.Rs for each incoming vessel from the first portcall view and also to sort after firstly N.O.R and later ETA. I've started trying to work on that, but encountered some problems, because we need to retrieve information about the specific events already in the portcall view and not in the event view. This is why I need to learn JavaScript better, so that I can retrieve the information I need, using the functions already available in the code or write my own.
+
+Where I want to be: Make sure I finish my user story, and help teammates who need help with theirs. Also help with testing of other user stories.
+
+How to get there: Learning JavaScript, talking with other groups and my teammembers.
+
 
 
 
