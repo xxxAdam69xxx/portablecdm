@@ -1,45 +1,49 @@
 What do I want to learn or understand better?
 
-Where I am: This week I’ve built the project and downloaded everything that was needed. My programming environment is basically set up, though I have some minor issues with the exp. Next week we will start the coding process.
+Where I am: This week, on Monday, we met up with the customer who gave us useful information about what kinds of extensions to the application he’s expecting. We discussed the different epics and contributed the user stories within the group. I feel like I have enough knowledge about how Trello works to implement it in a correct way. I’ve also taken a in depth look of the application and code; some parts of the code are easier to understand than other parts.
 
-Where I want to be: I want to learn more about agile development in general and Scrum. Also make sure my programming environment is working fully so I can contribute and help coding. On Monday we will meet with the product owner and ask some relatable questions. 
+Where I want to be: My main priority for this upcoming week/sprint is to gain more knowledge about JavaScript and analyze the code so I know which parts I need to add or remove parts of to achieve the goal of my user story.
 
-How to get there: First attend all the meetings and “handledningstillfällen” to get useful information. After meeting with the product owner/terminal guy to develop our user stories (if needed), I can start coding. 
+How to get there: Be experimental and try to analyze the code, ask team members if needed. Also, read literature about JavaScript.
 
 How can I help someone else, or the entire team, to learn something new?
-Where I am: After setting up the programming environment in Android Studio and building the project (took a while), I’ve gained some knowledge. I’ve also studied the app and its functions closely, something I can share with the team.
 
-Where I want to be: Keep gaining new knowledge by reading literature and doing related exercises. Then sharing that knowledge to make sure that we all are on the same page, working as a unit. 
+Where I am: This week I shared knowledge about the codebase and application. Konrad and Arvid set up the shared repository and I read about how to use gitignore and shared that knowledge to some group members. 
 
-How to get there: By attending as much as possible to collect information needed for the project. Found the “handledningstillfällen” to be very useful in that case.
+Where I want to be: Be able to help team members and Konrad with the work on the user stories.
+
+How to get there: Improve my knowledge and work together with Konrad and mutually learn from each other to complete our user story in the best possible way.
 
 What is my contribution towards the team’s application of scrum?
 
-Where I am: I helped develop and refine the user stories after we met with the products owners on Wednesday. Also read about agile practices and Scrum. 
+Where I am: Right after the meeting on Monday, we got together and discussed epics and user stories. We also discussed how they should be prioritized. We refined and added some new user stories in line with what the customer asked for. Two days later, on Wednesday, we initiated our first sprint working (coding) on the user stories. 
 
-Where I want to be: Contribute as much as possible in our current situation. This week it felt like we got somewhere; getting the codebase working and arranging a meeting with the terminal guy. After the meeting with him we will get some useful information to start coding. 
+Where I want to be: On Wednesday we contributed the user stories within the group and made estimations regarding velocity and effort. It is important that I help to make sure those estimations are as precise as possible.
 
-How to get there: Keep sharing information and helping within the group. Develop the user stories and maybe add some after our meeting on Monday.
+How to get there: By attending upcoming meetings and working continuously on the distributed user story.
 
 What is my contribution towards the team’s deliveries?
+
 Where I am: 
 
-Last week the goals:
-•	Gather information from the product owner
-•	Start the coding process
-•	Set up appropriate user stories on Trello
-Most of the goals from last week was achieved. Though the product owner took over a week to answer so we were not able to arrange a meeting when we wanted, thankfully it is sorted now. I helped develop and set up appropriate user stories on Trello and discussed them with the product owners. 
-
-Where I want to be:
-
-For next week:
+From last week:
 •	Start the coding process
 •	Meet with the terminal guy
 •	Attend all important meetings
 
+My main goal from last week/sprint was to get the build of the project to work properly. After getting in depth help from team members and reading on forums, and still not getting it to work fully, I’ve decided to work closely with Konrad and code together with him. This may be temporary if I get the build to run properly in the future. All other goals set from last week are achieved. 
+
+Where I want to be:
+
+For next week:
+•	Finish my user story
+•	Learn more about JavaScript and share knowledge 
+•	Attend all meetings
 
 How to get there: 
 
-Solve my minor issue with the exp not running properly. Gather as much information as possible from the terminal guy and start working on the user stories we set up.
+Read articles and watch tutorials on JavaScript. Attend all meetings the group agrees on and work together with Konrad to complete our user story.
+
+
 
 
