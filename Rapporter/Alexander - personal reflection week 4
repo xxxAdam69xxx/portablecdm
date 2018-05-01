@@ -39,3 +39,24 @@ My contribution this week was writing a larger portion of the group reflection, 
 What is my contribution towards the team’s deliveries? 
 
 My contribution as stated above, is attending group meetings, discussing user stories, acceptance criteria, and definitions of done.
+
+
+-----------------------------------------------
+Week 6:
+
+
+What do I want to learn or understand better?
+
+At the moment, I would like to learn how to understand the code of the app better. For this weeks sprint Adam and I were given the task to make it possible for terminal workers to assign a terminal to incoming ships via the app. However, the app has no feature names terminal, only port. The documentation given mentions nothing about terminals, and so far I have not been able to find any server API of some sort. At the moment I feel like I have to find some way to make the server create a new attribute to vessels and store it, however I have no idea how to do so.
+
+How can I help someone else, or the entire team, to learn something new?
+
+At this point I have helped my teammate understand the general area of where to code our interface, and how. My knowledge in html and java can be of use, since I can explain to my team how and where the front end interface system can be coded. However, I lack the knowledge required to send and receive data, i.e. make the interface interactive.
+
+What is my contribution towards the team’s application of scrum?
+
+My contribution to the teams application of scrum is basically the structuring of things to do for the user story assigned to me, and fulfilling one part of this (front end interface draft). I also contributed by realising that this scrum week had too hard of an assignment to be able to do it in one week. This is a contribution towards the weeks scrum reflections.
+
+What is my contribution towards the team’s deliveries? 
+
+My contribution this week was learning how the interface layout is structured in the app. I also created a interface draft, or MVP, of how the interface for our user story should look like.
