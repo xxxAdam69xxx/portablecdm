@@ -1,37 +1,36 @@
 What do I want to learn or understand better?
 
-Where I am: This week, on Monday, we met up with the customer who gave us useful information about what kinds of extensions to the application he’s expecting. We discussed the different epics and contributed the user stories within the group. I feel like I have enough knowledge about how Trello works to implement it in a correct way. I’ve also taken a in depth look of the application and code; some parts of the code are easier to understand than other parts.
+Where I am: This week I’ve started working on a user story together with Konrad. I’ve learned more about the code and app, so I know where to make the changes to complete the user story. During the coding-process I’ve learned more about JavaScript in general since I’ve never used it before. 
 
-Where I want to be: My main priority for this upcoming week/sprint is to gain more knowledge about JavaScript and analyze the code so I know which parts I need to add or remove parts of to achieve the goal of my user story.
+Where I want to be: Keep improving my knowledge about JavaScript and the different parts of the code of the app.
 
-How to get there: Be experimental and try to analyze the code, ask team members if needed. Also, read literature about JavaScript.
+How to get there: Continue at the same pace and work together with my group members to gain more knowledge. 
 
 How can I help someone else, or the entire team, to learn something new?
+Where I am: After improving my knowledge about the code and Github by getting help from group members and reading online (Slack etc.), I’ve (and other group members) come to a certain point where we can efficiently share knowledge and help each other so that we can come up with good solutions.
 
-Where I am: This week I shared knowledge about the codebase and application. Konrad and Arvid set up the shared repository and I read about how to use gitignore and shared that knowledge to some group members. 
+Where I want to be: Our, and my main priority, is to keep up the pace and finish our contributed user stories.
 
-Where I want to be: Be able to help team members and Konrad with the work on the user stories.
+How to get there: Keep helping other group members with their user stories if they get stuck or are uncertain of some things.
 
-How to get there: Improve my knowledge and work together with Konrad and mutually learn from each other to complete our user story in the best possible way.
 
 What is my contribution towards the team’s application of scrum?
 
-Where I am: Right after the meeting on Monday, we got together and discussed epics and user stories. We also discussed how they should be prioritized. We refined and added some new user stories in line with what the customer asked for. Two days later, on Wednesday, we initiated our first sprint working (coding) on the user stories. 
+Where I am: This week we went through our time-estimates with the product owners and Jan-Philip so that we could know how to improve them for the upcoming week. 
 
-Where I want to be: On Wednesday we contributed the user stories within the group and made estimations regarding velocity and effort. It is important that I help to make sure those estimations are as precise as possible.
+Where I want to be: Help the team to have correct time estimates and contribute the user stories in an efficient way. 
 
-How to get there: By attending upcoming meetings and working continuously on the distributed user story.
+How to get there: Attend all meetings we set up and finish my given user story. Find out the velocities of the different team members so that we can make correct estimates.
 
 What is my contribution towards the team’s deliveries?
-
 Where I am: 
 
 From last week:
-•	Start the coding process
-•	Meet with the terminal guy
-•	Attend all important meetings
+•	Finish my user story
+•	Learn more about JavaScript and share knowledge 
+•	Attend all meetings
 
-My main goal from last week/sprint was to get the build of the project to work properly. After getting in depth help from team members and reading on forums, and still not getting it to work fully, I’ve decided to work closely with Konrad and code together with him. This may be temporary if I get the build to run properly in the future. All other goals set from last week are achieved. 
+Me and Konrad almost finished our user story, we put in a lot of time and had some minor difficulties in the beginning, but we took our time to be able to understand the code fully. All other goals from last week was fulfilled. 
 
 Where I want to be:
 
@@ -40,10 +39,11 @@ For next week:
 •	Learn more about JavaScript and share knowledge 
 •	Attend all meetings
 
+Same goals from last week will stand. 
+
 How to get there: 
 
-Read articles and watch tutorials on JavaScript. Attend all meetings the group agrees on and work together with Konrad to complete our user story.
-
+Put in the work that’s needed (20h) and keep up the pace. Work closely with my team members.
 
 
 
