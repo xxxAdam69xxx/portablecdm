@@ -8,7 +8,8 @@ import {
     appendPortCalls,
     bufferPortCalls,
     setError,
- } from '../../actions';
+    retrieveETA,
+    } from '../../actions';
 
 import {
     View,
@@ -139,12 +140,13 @@ class PortCallList extends Component {
                                     title={portCall.vessel.name}
                                     badge={{element: this.renderFavorites(portCall)}}
                                     titleStyle={styles.titleStyle}
-                                    subtitle={getDateTimeString(new Date(portCall.startTime))}
+                                    subtitle={portCall.startTime}
                                     subtitleStyle={styles.subTitleStyle}
                                     // rightTitle={portCall.stage ? portCall.stage.replace(/_/g, ' ') : undefined}
                                     // rightTitleStyle={[styles.subTitleStyle, {fontSize: 9}]}
                                     onPress={() => {
-                                        //console.log(JSON.stringify(portCall.vessel));
+                                        console.log(JSON.stringify(portCall.vessel));
+                                        console.log(JSON.stringify(this.props.retrieveETA(portCall.portCallId)));
                                         selectPortCall(portCall);
                                         navigate('TimeLine')
                                     }}
@@ -177,6 +179,7 @@ class PortCallList extends Component {
                     </List>
                 </ScrollView>
             </View>
+
         );
     }
 
@@ -297,4 +300,5 @@ export default connect(mapStateToProps, {
     toggleFavoriteVessel,
     bufferPortCalls,
     setError,
+    retrieveETA,
 })(PortCallList);

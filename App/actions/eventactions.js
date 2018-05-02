@@ -3,6 +3,7 @@ import { checkResponse } from '../util/httpResultUtils';
 import { createTokenHeaders, createLegacyHeaders, getCert } from '../util/portcdmUtils';
 import { noSummary, hasEvents } from '../config/instances';
 import pinch from 'react-native-pinch';
+import {getTimeString, getDateString} from '../util/timeservices'
 
 export const appendPortCallIds = (lastPortCall) => {
     return (dispatch, getEvent) => {
@@ -12,6 +13,7 @@ export const appendPortCallIds = (lastPortCall) => {
     }
 }
 
+
 export const updatePortCallIds = (lastUpdated) => {
     return (dispatch, getEvent) => {
         let updatedAfter = '&updated_after=' + new Date(lastUpdated).toISOString();
@@ -19,6 +21,57 @@ export const updatePortCallIds = (lastUpdated) => {
         return dispatch(fetchPortCallIds(updatedAfter));
     }
 }
+
+    export const retrieveETA = (portCallId) => {
+        return (dispatch, getState) => {
+            const connection = getState().settings.connection;
+            const token = getState().settings.token;
+            const contentType = getState().settings.instance.contentType;
+            const headers = connection.username ? createLegacyHeaders(connection, contentType) : createTokenHeaders(token, contentType);
+
+            return pinch.fetch(`${connection.scheme + connection.host}:${connection.port}/pcb/port_call/${portCallId}${getState().settings.instance.portCallEndPoint}`, {
+                method: 'GET',
+                headers,
+                sslPinning: getCert(connection),
+            }).then(result => {
+                console.log('Response for operation in port call');
+                let err = checkResponse(result);
+                if (!err) {
+                    var res = JSON.parse(result.bodyString)[0].statements;
+                    res.sort(function(a,b) {
+                        if (a.stateDefinition == "PortVisit_Confirmed" && a.timeType == "ACTUAL") {return -1;} //Ska väl inte gå att ha två olika tider som är reported som actual?
+                        else if (b.stateDefinition == "PortVisit_Confirmed" && b.timeType == "ACTUAL") {return 1;}
+                        else if (a.stateDefinition == "PortVisit_Confirmed" && a.timeType == "ESTIMATED" &&
+                        b.stateDefinition == "PortVisit_Confirmed" && b.timeType == "ESTIMATED") {return b.reportedAt - a.reportedAt;}
+                        else if (a.stateDefinition == "PortVisit_Confirmed" && a.timeType == "ESTIMATED") {return -1;}
+                        else if (b.stateDefinition == "PortVisit_Confirmed" && b.timeType == "ESTIMATED") {return 1;}
+                        else if (a.stateDefinition == "PortVisit_Confirmed" && a.timeType == null &&
+                        b.stateDefinition == "PortVisit_Confirmed" && b.timeType == null) {return b.reportedAt - a.reportedAt;}
+                        else if (a.stateDefinition == "PortVisit_Confirmed" && a.timeType == null) {return -1;}
+                        else if (b.stateDefinition == "PortVisit_Confirmed" && b.timeType == null) {return 1;}
+                        else if (a.stateDefinition == "Arrival_Vessel_TrafficArea" && a.timeType == "ACTUAL") {return -1;}
+                        else if (b.stateDefinition == "Arrival_Vessel_TrafficArea" && b.timeType == "ACTUAL") {return 1;}
+                        else if (a.stateDefinition == "Arrival_Vessel_TrafficArea" && a.timeType == "ESTIMATED" &&
+                        b.stateDefinition == "Arrival_Vessel_TrafficArea" && b.timeType == "ESTIMATED") {return b.reportedAt - a.reportedAt;}
+                        else {return 0;}
+                    });
+                    console.log(res[0]);
+                    var subtitle = "";
+                    var d = new Date(res[0].time);
+                    if (res[0].stateDefinition == "PortVisit_Confirmed" && res[0].timeType == "ACTUAL") {subtitle =  "Actual N.O.R: " + res[0].time;}
+                    else if (res[0].stateDefinition == "PortVisit_Confirmed" && res[0].timeType == "ESTIMATED") {subtitle =  "Estimated N.O.R: " + res[0].time;}
+                    else if (res[0].stateDefinition == "PortVisit_Confirmed" && res[0].timeType == null) {subtitle =  "Possible N.O.R: " + res[0].time;} //.toLocalString()
+                    else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ACTUAL") {subtitle =  "Actual ETA: " + res[0].time;}
+                    else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ESTIMATE") {subtitle =  "Estimated ETA: " + res[0].time;}
+                    console.log(subtitle);
+                    return subtitle;
+                }
+
+                dispatch({ type: types.SET_ERROR, payload: err });
+                throw new Error(types.ERR_DISPATCHED);
+            });
+        }
+    }
 
 export const fetchPortCallIds = (filterString) => {
     return (dispatch, getState) => {
@@ -66,6 +119,7 @@ export const fetchPortCallIds = (filterString) => {
             })
     }
 }
+
 
 
 
