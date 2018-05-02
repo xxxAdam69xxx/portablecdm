@@ -151,6 +151,44 @@ How to get there: Learning JavaScript, talking with other groups and my teammemb
 
 
 
+# Week 6
+
+
+**What do I want to learn or understand better?**
+
+Where I am: So, I actually didn't do a JavaScript tutorial but learned it through experimenting. I got a way better understanding of the app by trying to do the user story that was assigned to me, and I feel like I know where I have to look to find the code I want to change now. I've also learned a bit more about GitHub branches.
+
+Where I want to be: Feel like I'm doing pretty well, but I could obviously still improve the speed at which I'm making changes.
+
+How to get there: Not sure, just put in the 20 hours like I'm supposed to.
+
+
+**How can I help someone else, or the entire team, to learn something new?**
+
+Where I am: Feels like I know the codebase well enough to help my team out now whenever they need any help. I also help with GitHub or whenever they need help with anything else, like exp or whatever.
+
+Where I want to be: Get an even better understanding of the codebase. 
+
+How to get there: Same answer as in the first question.
+
+
+**What is my contribution towards the team’s application of scrum?**
+
+Where I am: I was present on our wednesday meeting and during the meeting with the product owners and Jan-Philip. We went through our estimates so that we could improve them for next week. We also got some good feedback and help from the product owners about finding the state in the app that is corresponding to a Notice of Readiness. We also discussed our process and time estimates so far with Jan-Philip. The sprint was mostly successul but some pairs didn't finish their user stories, mostly due to technical difficulties with GitHub and Exp. 
+
+Where I want to be: Once again, distribute the user stories evenly and have correct time estimates, and keep working 20 hours per week. Also still be present during each meeting.
+
+How to get there: Same as last week, look back next week at our estimates and see how they stacked up against our actual outputs. See which team members have higher velocities.
+
+**What is my contribution towards the team’s deliveries?**
+
+Where I am: I almost managed to finish our user story for this week. It was to get the ETAs or N.O.R into the first view as subtitles. I think I'm only 1 hour short of completely accomplishing this goal, since I've so far managed to get the right timestamps logged into the terminal, so the only thing that remains is to get them as subtitles and sort the list. That's pretty much it. It took a while to make my own function that retrieved the data I wanted from the servers.
+
+Where I want to be: Finish my user story and start working with testing and helping my teammates to finish theirs. 
+
+How to get there: Just put in the 20 hours again.
+
+
 
 
 
