@@ -91,3 +91,15 @@ As mentioned above, we have now split the problem into smaller parts by dividing
 •	What is my contribution towards the team’s deliveries?
 I was part of the long discussion meeting we had, setting up the last bit of software for all group members as well as deciding the coding pairs and assigning user stories to these.  Together with my partner, I will work on our assigned user story and try to have everything ready for next week’s group meeting, where every pair can reflect over whether the assigned task was of reasonable scope, too small or too large. 
 
+Weekly reflection 6
+•	What do I want to learn or understand better?
+During this week’s attempts to start writing code, I realized the difficulty of taking over working code that’s written by someone else – especially since JavaScript, a protocol I’m not familiar with, is involved. Together with my coding partner, I quickly realized that trying to make changes in a program that’s already working is quite different from developing your own application from scratch. Also, simply understanding how to use the programming software has proven quite a challenging task so far. However, thanks to advice from a supervisor, I believe I’ve finally understood and feel ready to continue working on the code next week.
+
+•	How can I help someone else, or the entire team, to learn something new?
+The fact that you don’t have to rebuild the emulator every time you open Android Studio, but rather just have to re-run the process through AVD Manager is my main lesson from this week. This will allow much more efficient progress to be made in the future, and I will be sure to mention this to the group members that weren’t present for the supervision. 
+
+•	What is my contribution towards the team’s application of scrum?
+During the coding process, we realized that the user story that Alexander and I are responsible for was larger and more complex than initially anticipated. Therefore, we have split it into a set of smaller sub-tasks, in order to more accurately match the content of the sprint to the amount of time available during a working week.  
+
+•	What is my contribution towards the team’s deliveries?
+Alexander and I spent most of Monday working on the code, specifically attempting to add functionality that allows the notifying a vessel of its designated terminal. This was found to be difficult, and only a small bit of progress has been made (in the shape of adding a button to the Vessel Info view), but hopefully next week we should be able to understand the code a bit better and start working on its actual functionality.
