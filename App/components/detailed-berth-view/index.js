@@ -62,7 +62,7 @@ class LocationSelection extends Component {
                 <TopHeader
                     firstPage
                     navigation={navigation}
-                    title="Detailed Berth View"
+                    title="Detailed Birth View"
                 />
                 <SearchBar
                     containerStyle={styles.searchBarContainer}
@@ -87,7 +87,7 @@ class LocationSelection extends Component {
                                     onPress={() => {
                                         console.log('pressing the button')
                                         this.props.selectBerthLocation(location);
-                                        this.props.navigation.navigate('DetailedBerthList');
+                                        this.props.navigation.navigate('BerthTimeLine');
                                        
 
                                     }}
