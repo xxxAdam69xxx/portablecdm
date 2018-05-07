@@ -228,6 +228,15 @@ class PortCallList extends Component {
         return 0;
     }
 
+    search2(portCalls, searchTerm) {
+    	var arr = this.search(portCalls, searchTerm);
+    	for (var i = 0; i < arr.length; i++) {
+    		arr[i].eta = this.props.retrieveETA(arr[i].portCallId);
+    	}
+    	return arr.sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
+        .slice(0, this.state.numLoadedPortCalls); // tog den från funktionen under
+    }
+
     search(portCalls, searchTerm) {
         let { filters } = this.props;
 
@@ -236,8 +245,7 @@ class PortCallList extends Component {
             portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
             portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
             (!portCall.stage || filters.stages.includes(portCall.stage));
-        }).sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
-        .slice(0, this.state.numLoadedPortCalls);
+        });
     }
 }
 
