@@ -20,6 +20,7 @@ import ErrorView            from '../components/error-view';
 import BearthList           from '../components/berth-list-view';
 import BerthList            from '../components/berth-list-view';
 import BerthTimeLine        from '../components/berth-timeline-view';
+import DetailedBerths       from '../components/detailed-berth-view';
 
 const BerthViewNavigator = StackNavigator({
     BerthList: { screen: BearthList }, // THIS SHOULD BE FIRST!!
@@ -27,6 +28,13 @@ const BerthViewNavigator = StackNavigator({
 }, {
     headerMode: 'none'
 });
+
+const DetailedBerthViewNavigator = StackNavigator({
+    DetailedBerths: { screen: DetailedBerths }, // THIS SHOULD BE FIRST!!
+}, {
+    headerMode: 'none'
+});
+
 
 const TimeLineNavigator = StackNavigator({
   TimeLineDetails: {screen: TimeLineView},
@@ -64,6 +72,7 @@ const InitiatePortCallNavigator = StackNavigator({
 const MainNavigator = DrawerNavigator({
     PortCalls: { screen: PortCallListNavigator }, // THIS SHOULD BE FIRST!!
     Berths: { screen: BerthViewNavigator }, 
+    DetailedBerths: { screen: DetailedBerthViewNavigator }, 
     TimeLine: {screen: TimeLineNavigator},
     FavoriteStatesSideMenu: { screen: StateList },
     FavoriteStatesInit: { screen: InitiatePortCallNavigator },
