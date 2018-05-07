@@ -79,9 +79,6 @@ class LocationSelection extends Component {
                         {this.search(locations, this.state.searchTerm).map(location => {
                             return (
                                 <ListItem
-                                    <ExpandableListView
-
-
 
                                     key={location.name}
                                     title={location.name}
@@ -97,7 +94,6 @@ class LocationSelection extends Component {
                                 />
                             );
                         })}
-                        </ExpandableListView>
                     </List>}
                 </ScrollView>
             </View>
