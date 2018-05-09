@@ -160,3 +160,35 @@ Where I am: This week, I have mostly been focusing on transforming the user stor
 Where I want to be: For next week, I want to have finished my user story and have it fully implemented in the application. Furthermore, I want to have started working on another one as soon as the current one is finished. I also want to be able to help my teammates and their progress by continuing to break down the user stories that we have left into tasks. Therefore, our deliveries are mostly revolved around creating value for the end-user and to some extent, the product owners also. 
 
 How to get there: In order to finish the user story, I will need to continue to code and continue to help my team by dividing the user stories amongst us. Furthermore, I want to divide the rest of the user stories into tasks, thus making the user story easier in applying it in the application. 
+
+--------------------------------------------------
+
+Weekly reflection week 7
+
+What do I want to learn or understand better?
+Now: In connection with last sprint’s goals of understanding the code better, I can say that I now understand it much better than last sprint. Me and Arvid have almost finished our user story, we just need it to sort by location. Therefore, I want to learn how to incorperate the locations into our user story. Furthermore, during this sprint I have learned more about the states in the application and also made the product owners aware that notice of readiness (NOR) state is missing and they are going to implement that during next week. Therefore, I will stress my scrum master so he in return can stress the vessel captain to use that state in the future, in order for us (e.g. the terminal) to give them ETB’s and such. 
+
+Where I want to be: For next sprint, I want to learn more about the locations and how it can be implemented in our user story. I also want to learn more about another user story, so I can start implementing that together with Arvid. 
+
+How to get there: In order to learn more about locations, I need to explore the code further and check more how the filter works in the portcall view and use that knowledge to implement it in our user story. 
+
+How can I help someone else, or the entire team, to learn something new?
+Now: I have shared my communication with Mathias about NOR with my team and in that sense help them understand the importance of NOR and that it will be implemented in the application. I have also helped my team to further divide the user stories into tasks, meaning that it will be easier and more synoptic. I have also helped my team members with coding and answered questions they had about the code and application etc by being available both for meetings and questions arising in the group chat.
+
+Where I want to be: I want to continue to help my team mates as I have previously in every way possible, i.e. coding and developing user stories etc. 
+
+How to get there: In order to help them, I will attend the meetings as usual and be available to answer and help online through our group chat for example. 
+
+What is my contribution towards the team’s application of scrum?
+Now: I have, in connection with last sprint’s goals of being up to date with the estimations, updated the estimations as good as possible according to the pace we have been implementing the user stories in the application. Furthermore, I have helped my team by further dividing our user stories into manageable tasks for everyone’s comfort and to help them know what is next in doing their respective user story. 
+
+Where I want to be: I want to continue to help my team’s application of scrum by continuing to divide the user stories into tasks and update the effort estimations. Furthermore I want to maintain the contact with the product owners and keep them up to date with any changes that we make regarding user stories. Also, when some members have nothing to do as they have finished their user story (this happened this sprint) I want to be able to help them find new work and reasonable assignments for the remaining time of the sprint.
+
+How to get there: As I mentioned above, in order to continue to apply scrum and helping my team to do so, I will continue to dividing user stories into tasks. Also help my team members to have assignments to work with and so on.
+
+What is my contribution towards the team’s deliveries? 
+Now: The same as last sprint, this sprint I have been focusing on coding together with Arvid and we are almost done with our user story. Thus, we are creating value for both the client and the product owners. As I said above, me and Arvid are soon to be done with our user story. As last sprint, the deliveries from me and my team revolve around the creation of value to the product owners and the client. 
+
+Where I want to be: During next sprint, I want to finish the user story together with Arvid and with that bring tremendous value to the product owners and the client. Additionally, I want to start working on another user story and continue the creation of value. 
+
+How to get there: In order to finish the user story, me and Arvid have to continue to code and as soon as we are done, start working on a new one. In this stage of the project, the value creation is key and therefore this is what I will focus on the most in terms of contributing to the team’s deliveries. 
