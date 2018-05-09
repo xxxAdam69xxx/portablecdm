@@ -667,7 +667,7 @@ Ensuring that the terminal workers, the product owner and the course administrat
 Successfully achieving all the user stories.
 Providing other actors with value, for instance having relevant data from the terminal in an easily accessible way.
  
-The terminal workers have not been check in with, since there were no presentable changes, but that is a goal for next sprint. FYLL I OM PRODUCT OWNER OCH COURSE ADMINISTRATOR
+The terminal workers have not been checked in with, since there were no presentable changes, but that is a goal for next sprint. The product owners seem pleased, and have even taken our feedback into account and are going to add a Notice of Readiness state to the app, hopefully next week so that we can use it to create value for the Terminal. After having a conversation about our process and scope with Jan-Philipp we got some valuable information that was even used in this reflection. Overall, he seemed pleased with our process and progress, although we did not put in 20 hours last sprint. It was okay for us to put in more hours next sprint to compensate. 
 We are on good way to achieve all our user stories, some fell away this week after discussions with another group (Shipping agent) and as can be seen in the scope section we should be on good way.
 We are providing value to the terminal and the vessel as mentioned in the scope section. We know this after extensive talks with the terminal about the prioritization of the user stories.
  
