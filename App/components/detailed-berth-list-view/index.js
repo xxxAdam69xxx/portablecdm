@@ -86,9 +86,7 @@ class PortCallList extends Component {
             <View style={styles.container}>
                 <TopHeader title={this.props.berth.name} navigation={this.props.navigation} firstPage/>
                 {/*Render the search/filters header*/}
-                <View style={styles.containerRow}>
-                   
-                </View>
+            
 
                 {/*Render the List of PortCalls*/}
                 <ScrollView
@@ -202,7 +200,7 @@ class PortCallList extends Component {
         let { filters } = this.props;
 
         return portCalls.filter(portCall => {
-            return (portCall.vessel.name.toUpperCase().includes(searchTerm.toUpperCase()) ||
+            return (portCall.vessel.name.toUpperCase().includes(this.props.berth.name) ||
             portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
             portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
             (!portCall.stage || filters.stages.includes(portCall.stage));
