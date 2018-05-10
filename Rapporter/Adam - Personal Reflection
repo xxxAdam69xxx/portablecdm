@@ -103,3 +103,32 @@ During the coding process, we realized that the user story that Alexander and I 
 
 •	What is my contribution towards the team’s deliveries?
 Alexander and I spent most of Monday working on the code, specifically attempting to add functionality that allows the notifying a vessel of its designated terminal. This was found to be difficult, and only a small bit of progress has been made (in the shape of adding a button to the Vessel Info view), but hopefully next week we should be able to understand the code a bit better and start working on its actual functionality.
+
+Weekly reflection 7
+•	What do I want to learn or understand better?
+Now: The user story that Alexander and I were working on turned out to be redundant after talking to the shipping agents, so we’re looking into a new task now.
+
+Goal: Understand the new task assigned to us and implement it in an efficient way.
+
+How to get there: Start working on the implementation of the new user story. 
+
+•	How can I help someone else, or the entire team, to learn something new?
+Now: Alexander and I will work together to figure out how to implement a new view into the application, and how to design that view optimally.
+
+Goal: Having learned how to implement and design a new view. 
+
+How to get there: Working together through trial-and-error to understand what we’re writing. 
+
+•	What is my contribution towards the team’s application of scrum?
+Now: I’m still working with Alexander as part of a coding pair, utilizing that as an agile practice. As mentioned, the user story we were working on turned out to be unnecessary, and we’ve realized that some of our user stories are dependent on each other. 
+
+Goal: Having more manageable and smaller tasks to choose from for the next sprint, and having checked that each of these are actually necessary for the implementation of the application.
+
+How to get there: Continue working in my coding pair, now focusing on a smaller task that should be more reasonable to finish in one sprint. 
+
+•	What is my contribution towards the team’s deliveries?
+Now: Due to main focus being on finishing the bachelor thesis this week, I haven’t been able to spend as much time as I would’ve liked this week. However, since our assigned user story turned out to be redundant, this actually wasn’t a complete disaster.
+
+Goal: Finish the new task, having a view designed to calculate cargo operation times for fuelling. 
+
+How to get there: Spend some extra hours working on the project to make up for this week’s shortage.
