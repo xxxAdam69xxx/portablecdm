@@ -188,6 +188,48 @@ Where I want to be: Finish my user story and start working with testing and help
 
 How to get there: Just put in the 20 hours again.
 
+# Week 7
+
+
+**What do I want to learn or understand better?**
+
+Where I am: I got a better understanding of the app after talking with Pontus on yesterday (wednesday) about the whole architecture and dataflow (going through reducers, mapStateToProps function and similar). Unfortunately, I couldn't put in 20 hours last week for two reasons. The deadline of our bachelors thesis is approaching so I had to focus on that and I was almost finished with my user story from last week but had to get some help from Pontus to finalize it (the thing about reducers I wrote about earlier). We should slice the remaining user stories better (more independent) so that those who are finished always have something to work on.
+
+Where I want to be: Get an even better understanding of the architecture, like I did after talking with Pontus.
+
+How to get there: Put in 20 hours, or actually more since I didn't put in 20 this week.
+
+
+**How can I help someone else, or the entire team, to learn something new?**
+
+Where I am: This week I actually helped my group with coding more than working on my own user story, as written before. I'll probably be able to explain what I learned about the architecture, yesterday, to the team during next sprint.
+
+Where I want to be: Get an even better understanding of the codebase. 
+
+How to get there: Same answer as in the first question.
+
+
+**What is my contribution towards the team’s application of scrum?**
+
+Where I am: I was at our scrum-meetings on both Monday and Wednesday. As mentioned before this sprint wasn't the best one, since we didn't put in enought time. I did talk with the product owners about them implementing a N.O.R state to the app, and talking about the progress of my user story. I updated the estimates on my user story, and the acutal time spent so that we can check our estimate accuracy after next sprint (goal from last week). I was also present during our talk with Jan-Philipp about our process, where we talked about what we should do if we put in less time, like we did this week. 
+
+Where I want to be: Same as last week, distribute the user stories evenly and have correct time estimates, and keep working 20 hours per week. Also still be present during each meeting.
+
+How to get there: Same as last week, look back next week at our estimates and see how they stacked up against our actual outputs. See which team members have higher velocities.
+
+**What is my contribution towards the team’s deliveries?**
+
+Wheer I am: I realized that I need some help from Pontus (mentioned in the first section, reducers and so on) to finish the user story I talked about last week, so it wasn't acutally 1 hour like I thought. Couldn't proceed with any other user story, cause they aren't independent so I mostly helped other coding pairs with their stories (goal from last week). Like mentioned before I didn't put in enough time this week, like the whole team, and will cover up for that next week.
+
+Where I want to be: Same as last week, finish my user story and start working with testing and helping my teammates to finish theirs. 
+
+How to get there: Cover up for the time I didn't put in last week, beyond the usual 20 hours.
+
+
+
+
+
+
 
 
 
