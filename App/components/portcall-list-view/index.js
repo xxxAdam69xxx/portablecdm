@@ -44,6 +44,8 @@ class PortCallList extends Component {
         this._appendPortCalls = this._appendPortCalls.bind(this);
         this.loadPortCalls()
             .then(this.props.bufferPortCalls);
+        this.props.retrieveETA("urn:mrn:stm:portcdm:port_call:SEGOT:d26b7c4c-fc8a-449d-8955-7fd5816c6485").then(() => this.forceUpdate());
+
     }
 
     loadPortCalls() {
@@ -140,7 +142,7 @@ class PortCallList extends Component {
                                     title={portCall.vessel.name}
                                     badge={{element: this.renderFavorites(portCall)}}
                                     titleStyle={styles.titleStyle}
-                                    subtitle={portCall.startTime}
+                                    subtitle={this.props.subtitle}
                                     subtitleStyle={styles.subTitleStyle}
                                     // rightTitle={portCall.stage ? portCall.stage.replace(/_/g, ' ') : undefined}
                                     // rightTitleStyle={[styles.subTitleStyle, {fontSize: 9}]}
@@ -296,7 +298,8 @@ function mapStateToProps(state) {
         showLoadingIcon: state.portCalls.portCallsAreLoading,
         filters: state.filters,
         error: state.error,
-        isAppendingPortCalls: state.cache.appendingPortCalls
+        isAppendingPortCalls: state.cache.appendingPortCalls,
+        subtitle: state.portCalls.subtitle
     }
 }
 

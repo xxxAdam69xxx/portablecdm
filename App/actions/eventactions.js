@@ -64,6 +64,7 @@ export const updatePortCallIds = (lastUpdated) => {
                     else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ACTUAL") {subtitle =  "Actual ETA: " + res[0].time;}
                     else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ESTIMATE") {subtitle =  "Estimated ETA: " + res[0].time;}
                     console.log(subtitle);
+                    dispatch({ type: types.RETRIEVE_ETA, payload: subtitle });
                     return subtitle;
                 }
 
