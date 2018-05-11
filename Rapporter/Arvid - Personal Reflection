@@ -1,25 +1,20 @@
 what do I want to learn or understand better?
-
-Now: I have a much better understanding of the code, but the structure of the app is still not perfectly clear to me. There has been a lot of technical road bumps.
-Goal: I want to know the app better, as in knowing exactly how my relevant component are built. I really want to know how to create an expandable list inside my new view “detailed berth view”
-What to do: Work by trial and error, add and remove things. Follow online guides about expandable views. Ask classmates for help on adding the expandable view.
-
+Now: I have made some good progress from last weeks learning goal and I now have a better understanding of each component. But I still lack a good understanding of merging different branches of github and making my changes work with my teammates changes.
+Goal: I want to learn how to merge branches in an effective way
+What to do: Read about merging an aboutgithub, try and merge different branches.
 how can I help someone else, or the entire team, to learn something new?
 
-Now: Everyone is now coding. I feel like I have a better understanding of the code than some of my group mates. Therefore I feel like I am responsible for explaining relevant parts of the code to them
-Goal: Explain the relevant parts of the code to each sprint team.
+Now: During this sprint I have helped my teammates understand the inner workings of the app, more specifically the navigator component and how to add new views, and items to the side menu.
+Goal: To further help my teammates understand the app so that the can succeed in their sprint goals
 What to do: Explain to the different sprint teams which part of the code is relevant for them, what they can do to change it and how to go about it. Share my code with them as an example
 
 what is my contribution towards the team’s application of scrum?
-
-Now: I, together with my sprint mate, have divided our user story into tasks. On of the problem is that we didn’t have a full understanding of the code when we specified the tasks, which is why we’ll probably have to change it now that our understanding of the problem has changed. Our user stories’ scope might be too big.
-Goal: For this weeks sprint, specify better tasks for our user story. More specifically, specify tasks that are more reachable. I think it is important for team morale that we are able to reach our goals. Specifiy more doable user stories
-What to do: Specify more accurate (in line with our solution), and easier to accomplish tasks. Talk with the team and reduce the scope of our user stories.
+Now: Our user story was actually badly specified, but me and my sprint mate figured out a way to phrase it better and to divide into more specific tasks. It turned out our user story already existed in one way, but we added it in a better way.
+Goal: For this weeks sprint, I want to help my team respecify their tasks so that they can achieve more with their user story.
+What to do: Help my teammates specify better tasks
 
 what is my contribution towards the team’s deliveries? That means that for the personal learning objective you will each week write down what you have achieved in relation to last week's ambition (technologies, concepts and skills learnt as well as how this was achieved), what you would like to achieve for the next week and how to make the change happen. The first week of the course you describe the current situation by motivating a learning objective. It is perfectly fine to change objective/s each week as long as you can motivate the change and you evaluate the outcome of the previous week (e.g. describing the current situation).
-
-Now: I have not yet finished any task since our tasks were badly defined and not in line with the actual solution. I have decided to drop this objective until we have specified better tasks.
-Our sprint teams user story is not yet finished, which makes me think that maybe we overestimated our teams capability. We have added a new view, but as of right now it is identical to the select berth view. I want to be able to add an expandable list to this view, but I dont exactly know how. I want to find an effective way of learning how to these kind of things, maybe through asking people, googling, searching documentation, looking at other peoples code.
-Goal: Find an effective way of learning the code
-What To do: Ask friends how they went about learning the code, ask the owners, ask different stakeholders. Google, make use of the slack group and search engines. 
+Now: I think I’ve found a good way of learning the code. Mainly I use a mix of trial and error, googling and intuitively trying to backwards engineer code sections. I now want to help my team members understand the code, and more importantly, how to learn how to understand the code.
+Goal: Explain to my team how they should go about learning the code.
+What To do: Show them how I do it, show them the reasoning behind my code.
 
