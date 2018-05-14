@@ -247,7 +247,7 @@ class PortCallList extends Component {
             return (portCall.vessel.name.toUpperCase().includes(searchTerm.toUpperCase()) ||
             portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
             portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
-            (!portCall.stage || filters.stages.includes(portCall.stage));
+            (!portCall.stage || filters.stages.includes(portCall.stage)); //portCall.stage.includes(this.props.berth.name)
         });
     }
 }
