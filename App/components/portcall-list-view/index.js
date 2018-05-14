@@ -32,6 +32,12 @@ import colorScheme from '../../config/colors';
 import TopHeader from '../top-header-view';
 import { getDateTimeString } from '../../util/timeservices';
 
+
+// Subtitles uppdateras inte när man scorllar längst ner för att hämta ännu fler portcalls, eller vid filtrering. Måste fixa det.
+// Får även errors ibland om det tar för lång tid att hämta alla. Hur löser man det?
+// Sortera skiten...
+
+
 class PortCallList extends Component {
     state = {
         searchTerm: '',
@@ -40,11 +46,11 @@ class PortCallList extends Component {
     }
 
     componentWillMount() {
-        this.loadPortCalls = this.loadPortCalls.bind(this);
+        this.loadPortCalls = this.loadPortCalls.bind(this)
         this._appendPortCalls = this._appendPortCalls.bind(this);
         this.loadPortCalls()
             .then(this.props.bufferPortCalls);
-        this.props.retrieveETA("urn:mrn:stm:portcdm:port_call:SEGOT:d26b7c4c-fc8a-449d-8955-7fd5816c6485").then(() => this.forceUpdate());
+
 
     }
 
@@ -53,7 +59,10 @@ class PortCallList extends Component {
             if(this.props.error.hasError) {
                 navigate('Error');
             }
-        });
+        })
+            .then(this.props.retrieveETA(this.props.portCalls))
+        	.then(() => this.forceUpdate())
+        ;
     }
 
     _appendPortCalls() {
@@ -83,6 +92,8 @@ class PortCallList extends Component {
         const {navigation, showLoadingIcon, portCalls, selectPortCall} = this.props;
         const {navigate} = navigation;
         const {searchTerm} = this.state;
+
+
 
         // Quick fix for having 1 element with null value
         if (portCalls.length === 1) {
@@ -142,13 +153,12 @@ class PortCallList extends Component {
                                     title={portCall.vessel.name}
                                     badge={{element: this.renderFavorites(portCall)}}
                                     titleStyle={styles.titleStyle}
-                                    subtitle={this.props.subtitle}
+                                    subtitle={this.props.subtitles[portCall.portCallId]}
                                     subtitleStyle={styles.subTitleStyle}
                                     // rightTitle={portCall.stage ? portCall.stage.replace(/_/g, ' ') : undefined}
                                     // rightTitleStyle={[styles.subTitleStyle, {fontSize: 9}]}
                                     onPress={() => {
                                         console.log(JSON.stringify(portCall.vessel));
-                                        console.log(JSON.stringify(this.props.retrieveETA(portCall.portCallId)));
                                         selectPortCall(portCall);
                                         navigate('TimeLine')
                                     }}
@@ -230,15 +240,6 @@ class PortCallList extends Component {
         return 0;
     }
 
-    search2(portCalls, searchTerm) {
-    	var arr = this.search(portCalls, searchTerm);
-    	for (var i = 0; i < arr.length; i++) {
-    		arr[i].eta = this.props.retrieveETA(arr[i].portCallId);
-    	}
-    	return arr.sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
-        .slice(0, this.state.numLoadedPortCalls); // tog den från funktionen under
-    }
-
     search(portCalls, searchTerm) {
         let { filters } = this.props;
 
@@ -299,7 +300,7 @@ function mapStateToProps(state) {
         filters: state.filters,
         error: state.error,
         isAppendingPortCalls: state.cache.appendingPortCalls,
-        subtitle: state.portCalls.subtitle
+        subtitles: state.portCalls.subtitles
     }
 }
 

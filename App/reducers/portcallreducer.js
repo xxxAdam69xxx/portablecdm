@@ -10,7 +10,7 @@ const INITIAL_STATE = {
   portCallStructureIsLoading: false,
   portCallStructure: null,
   progress: 0,
-  subtitle: ""
+  subtitles: {}
 }
 
 /*
@@ -78,7 +78,7 @@ const portCallReducer = (state = INITIAL_STATE, action) => {
     case types.UPDATE_PROGRESS:
       return { ...state, progress: action.payload }
     case types.RETRIEVE_ETA:
-      return { ...state, subtitle: action.payload }
+      return { ...state, subtitles: action.payload }
     default:
       return state;
   }
