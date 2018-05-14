@@ -36,6 +36,7 @@ class PortCallList extends Component {
         searchTerm: '',
         refreshing: false,
         numLoadedPortCalls: 20,
+        locations: this.props.locations,
     }
 
     componentWillMount() {
@@ -77,7 +78,7 @@ class PortCallList extends Component {
     }
 
     render() {
-        const {navigation, showLoadingIcon, portCalls, selectPortCall, berth} = this.props;
+        const {navigation, showLoadingIcon, portCalls, selectPortCall, locations} = this.props;
         const {navigate} = navigation;
         const {searchTerm} = this.state;
 
@@ -196,18 +197,16 @@ class PortCallList extends Component {
         return 0;
     }
 
-    search(portCalls, searchTerm) {
+search(portCalls, searchTerm) {
         let { filters } = this.props;
 
         return portCalls.filter(portCall => {
-            return (portCall.vessel.name.toUpperCase().includes(this.props.berth.name) ||
-            portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
-            portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
-            (!portCall.stage || filters.stages.includes(portCall.stage));
-        }).sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
-        .slice(0, this.state.numLoadedPortCalls);
+            return (portCall.vessel.name.toUpperCase().includes(this.props.berth.name)); 
+            	
+        });
     }
 }
+
 
 const styles = StyleSheet.create({
     container: {
@@ -257,7 +256,8 @@ function mapStateToProps(state) {
         showLoadingIcon: state.portCalls.portCallsAreLoading,
         filters: state.filters,
         error: state.error,
-        isAppendingPortCalls: state.cache.appendingPortCalls
+        isAppendingPortCalls: state.cache.appendingPortCalls,
+        //location: state.selectBerthLocation
     }
 }
 
@@ -269,4 +269,5 @@ export default connect(mapStateToProps, {
     toggleFavoriteVessel,
     bufferPortCalls,
     setError,
+    //selectBerthLocation,
 })(PortCallList);
