@@ -226,7 +226,42 @@ Where I want to be: Same as last week, finish my user story and start working wi
 How to get there: Cover up for the time I didn't put in last week, beyond the usual 20 hours.
 
 
+# Week 8
 
+
+**What do I want to learn or understand better?**
+
+Where I am: Since last week, I've learned about async functions and promises in JavaScript, which I had to do so I could get the user story from last week finished. I though I was done last week, but I wasn't really, since I had to change the function I wrote to take in and return an array, which made the whole process more complicated since the pinch's fetch method is asynchronous I didn't get back the results, but just an empty array. Anyways, now the user story is basically finished, just some minor adjustments. I also feel like I understand the app very well right now, for the first time, although I've written that I understand it before a few reflections before...
+
+Where I want to be: Since the course is coming to an end I want to make sure that all our merging will be performed succesfully. Also make sure we write a good final group reflection, so that I can take some things with me for future projects.
+
+How to get there: Put in 20 hours. Learn about merging in git beforehand.
+
+
+**How can I help someone else, or the entire team, to learn something new?**
+
+Where I am: This week I've helped one of our coding pairs finish their user story and another to get started on theirs. Being able to help the pair to finish their user story is what made me realize that I finally understand the code well. I could fairly quickly find where changes had to be made to help them out. I've also helped another team (I think they are responsible for the "lots") to retrieve the correct information from the server, since I had to do the same thing myself earlier.
+
+Where I want to be: Help my team understand merging.
+
+How to get there: Same answer as in the first question.
+
+
+**What is my contribution towards the team’s application of scrum?**
+
+Where I am: I was at our scrum-meetings on both Monday and Wednesday. We once again talked with Jan-Philipp about time estimates and our whole process, the upcoming presentations, reflections and so on. I also showed the progress of my user story to the product owners, and talked about the upcoming N.O.R state, which isn't finished yet. We also talked about prioritizations for the last sprint to make sure they are content with what we will deliver. The time estimates have once again proved to be quite difficult, since problems come up that couldn't be foresighted before, without deep knowledge of the code (like promises and async functions..). I should make sure to initially give user stories a longer estimate until I'm very familiar with the codebase.
+
+Where I want to be: Same as last week, distribute the user stories evenly and have correct time estimates, and keep working 20 hours per week. Also still be present during each meeting. Make sure the final group reflection is well made so we all can bring something into our next projects.
+
+How to get there: Same as last week, look back next week at our estimates and see how they stacked up against our actual outputs. See which team members have higher velocities.
+
+**What is my contribution towards the team’s deliveries?**
+
+Where I am: For the third time I feel like I'm 1 hour away from finishing my user story, but this time I'm confident that it will not be more. I did get to a major breaktrough this evening (after part of the week spent learning about async functions and so on), so all subtitles do show up, now they just need some sorting which should be quick. I helped another pair finished their user story, by showing the how to only show the portcalls for a specific berth. Also helped another pair to create a view and be able to navigate to it. 
+
+Where I want to be: Finally finish the user story, make some final changes to incorporate another user story and merge our code.
+
+How to get there: Put in 20 hours.
 
 
 
