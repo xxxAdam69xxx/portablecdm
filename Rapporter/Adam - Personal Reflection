@@ -132,3 +132,17 @@ Now: Due to main focus being on finishing the bachelor thesis this week, I haven
 Goal: Finish the new task, having a view designed to calculate cargo operation times for fuelling. 
 
 How to get there: Spend some extra hours working on the project to make up for this week’s shortage.
+
+Weekly reflection 8
+•	What do I want to learn or understand better?
+Alexander and I have managed to implement a new view, intended for calculating cargo time, as well as adding some very basic calculator functionality. This has been the first task of the new user story we adopted last week, meaning are now in the process of improving the design of the view in order to be more easy to use. This means studying other sections of the code, looking for design ideas that can be used for our view.   
+
+•	How can I help someone else, or the entire team, to learn something new?
+Working together in our pair to find a user-friendly way to design the view, also keeping in mind the limited time frame remaining with the final presentation coming next week. 
+
+•	What is my contribution towards the team’s application of scrum?
+As mentioned in previous questions, we’re still using programming pairs as an agile practice. This is believed to be working quite well, as it takes some pressure away when each person has a partner to rely on and discuss with while working. At the same time, we’re also able to split the project up into several sections, due to the fact that we have several pairs working simultaneously. Finally, we’ve been dividing the user stories into smaller and smaller tasks, in order to have many smaller milestones to work towards, and also making the project scope a bit easier to grasp.
+
+•	What is my contribution towards the team’s deliveries?
+Co-implementing the new calculator view, along with functionality, together with Alexander. During Wednesday’s supervision session, I also took rather large responsibility for compiling the week’s group reflection, allowing some of the other group members to focus more intensely on developing the code further. 
+
