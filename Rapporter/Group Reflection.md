@@ -783,3 +783,138 @@ How to get there: We will have to combine the different user stories and app ver
 **Relation to literature and guest lectures (how do your reflections relate to what others have to say?)**
  
 Once again, we prioritize the coding process ahead of literature studies. No guest lectures have been held this week. Our goal is to try to relate to different studies the upcoming weeks.
+
+# WEEKLY REFLECTION, WEEK 8
+ 
+ **The chosen scope of the application under development including priority of features and for whom you are creating value**
+ 
+Now: The three user stories we have been working on this sprint are the ones of highest priority as all of them create value for the end user and have been approved upon by the product owner.  
+ 
+Goal: As this is the last week, no further user stories from our backlog will be worked upon. This is ok though as the other user stories have not been as highly prioritised (according to the product owner) and the user stories will have delivered do create value by themselves. We therefore feel like the final scope of our project is ok now.
+ 
+What to do: Since this is our last week we will focus on making sure the features are presentable. We discussed with the product owners what is most important for them and what we concluded is that they prioritize the aesthetic aspect over the actual performance of implemented features, as it is the concepts that are most important. However this still means that having a general solution that works for various actors and needs is important, so customization when necessary is important.
+ 
+**Your social contract** 
+Now: Everyone has been working in accordance with the group’s contract rules, also fulfilling last week’s promise to put in more time than in the last sprint.  
+ 
+Goal: Maintain the same situation as currently, as it’s believed to be working well.
+ 
+What to do: Continue adhering to the social contract, and put in required effort.
+ 
+**The success criteria for the team in terms of what you want to achieve with your application**
+Now: 
+Ensuring that the terminal workers, the product owner and the course administrator are satisfied with our process and the end product. 
+The course administrator and product owners were briefed about the progress made since last week. The course administrator provided some useful tips, and the product owners voiced their opinion regarding what they think should be worked on. Unfortunately, no briefing with the terminal workers has taken place due to time constraints.
+
+Successfully achieving all the user stories.
+Two out of the three user stories currently in progress are essentially finished, while the third one is about halfway through. 
+Providing other actors with value, for instance having relevant data from the terminal in an easily accessible way.
+The three user stories currently worked on have been prioritized as they all add the most value to the end user, as mentioned in the scope section. Additional user stories are not believed to be useful enough to steal focus from the three main ones. 
+ 
+Goal: Having two user stories completely finished and ready to present at next week’s final presentation. In agreement with the product owner, the third user story will be worked on primarily in terms of design. If it turns out that this goal can be accomplished faster than expected, we will also start looking into developing basic functionality. This way, it will be possible to at the very least show the intended idea of the view, even if it can’t be demonstrated with complete functionality. 
+ 
+What to do: Email the terminal to see if they are satisfied with our progress. Talk with the product owners and course administrator next Wednesday.
+Do the estimations mentioned in the scope section.
+The email will also show us if we provide the terminal with value.
+
+What to do: Work in accordance with the goals explained above. 
+ 
+**Your acceptance tests, such as how they were performed and with whom**
+Now: None of the user stories have been completely finished, although many are very close to being done.
+ 
+Goal: Finish user stories this sprint. Then conduct the testing according to our acceptance test and define the user story as done if it fulfills the definition of done
+ 
+What to do: Utilizing the definition of done presented last week:
+It can handle all variations/combinations of input data that it should
+The code is clean
+The code has comments explaining the code
+The product owner approves (this one will not be possible though as there won’t be time for this)
+
+**The design of your application (choice of APIs, architecture patterns etc)**
+This question has been an element of confusion to the group throughout the entire course, as it’s not believed to be especially applicable to this project. After discussion with Pontus, it was confirmed that the choice of APIs and architectural patterns are not up to the group, but rather set by the project’s application. 
+
+**The behavioural overview of your application (for instance through use cases, interaction diagrams or similar)**
+
+Now: As can be seen in last weeks reflections, most of our changes revolve around modifying the existing content. We also haven’t yet finished any user stories. This means that the behavioural overview of the application is almost the same since when we started. We have added a new list in the menu of the app called “Detailed Berth View”, which has changed the behavioural overview for the user, since they can see more details about the berth view in this section.
+
+Goal: Provide screenshots or diagrams once we make changes that actually impact the behavioural patterns of the app, including the Detailed Berth View section.
+
+What to do: Provide documentation of every user story we finish. So it’s easy to later show the behavioural overview.
+
+**The structural overview of your application (such as class diagrams, domain models or component diagrams)**
+Now: Not much has changed in the past week. There isn’t enough new code produced to need presentation diagrams.
+
+Goal: In time for next week’s presentation, we’ll try to have a structural overview available by next week’s sprint meeting.
+
+What to do: Summarize what has been done with the app into one version (summarize all branches). Then map out all the new functions that have been made.
+
+**Your user stories in terms of using a standard pattern, acceptance criteria, task breakdown and effort estimation**
+Now: Last week’s goal of having one user story finished has been accomplished with margin, as two have been completed. The breakdown of the third user story into smaller tasks has proven to be a smart decision, as both pairs working on those tasks have found the workload to be relatively reasonable. 
+
+Goal: Have the finished user stories tested and ready for presentation, and the third one at least presentable enough to provide the audience with an idea of what final design could look like. 
+
+What to do: Quality check and test the finished user stories. Develop either mockup or actual design for the third user story’s view. 
+
+
+**The three KPIs you use for monitoring your progress**
+
+Now:
+Communication:  Regarding communication within the team Slack has been successfully used in order to structure discussion between group members, and avoid information getting lost in group chats. This is believed to be a more strategic choice than the use of the Facebook-chat, which we initially started out with. Though Facebook is still used in an efficient way and is prioritized over Slack, mainly because of the habit of using Facebook.
+Estimation Accuracy: Since none of the team members had insufficient knowledge about JavaScript and tools needed for project, it has been hard to make accurate estimations. Some user stories were also shown to be more complicated than others and some team members had trouble to keep up with the estimations. Though we have tried our best to make the estimations as accurate as possible during our circumstances. 
+Velocity Consistency: Since a lot of team members were busy with their bachelor thesis this week the velocity was a bit lower last week. Therefore we have increased the velocity a fair bit during this sprint.
+
+Goal: Since the velocity is back to normal, our goal is to put in the time necessary to keep maintain a steady velocity. Maintain our successful communication within the group. Increasing the accuracy of the estimations, using the previous week’s experiences as new knowledge to be able to adjust the estimations to fit the complexity of the different user stories. Increase the efficiency of writing code. 
+
+What to do: Stick with Slack for formal communication and Facebook for less important communication. Stay consistent with the velocity, and don’t make any adjustments to be able to improve the accuracy in our estimations. By reflecting over the previous week to improve for next time, especially taking technical software problems into consideration. 
+
+**Code quality using a tool such as Findbugs**
+
+Now: Our coding for the user stories is an ongoing process. The goal we had for this week was to have at least one finished user story to be able to run Findbugs and determine code quality. After pretty much completing two user stories we decided to use DeepScan.io to scan the code quickly for quality, which resulted in ‘grade poor’. This was mainly because of the original code though.  
+
+Goal: Continue the testing process with more finished user stories, this time try Findbugs.
+
+How to get there: Learn more about code quality tools and accomplish whatever we are assigned.
+
+**The roles you have used within the team**
+
+Now: The roles remain the same as previously and will stand until the project is finished. Gabriel: Scrum-master, Emil: Contact person, and the rest of the group in the developer team.
+
+Goal: Since the roles are not very likely to change, our goal is to provide efficient result with our already given roles and support the project in the optimal way. 
+
+How to get there: By working efficiently with our distributed roles in the same way as our recent sprints. Make changes further ahead if found to be necessary.
+
+**The agile practices you have used for the current sprint**
+Now: Scrum remains continuously applied, as has been the case for the entirety of the course. User stories are still being worked on in pairs, now with more focus on user stories broken down into smaller, more manageable tasks. All the pairs have also been working together in the same relation, as this makes it easier for pairs to help each other if someone runs into problems. Estimates remain problematic, due to the fact that programming has been significantly more difficult than anticipated. 
+ 
+Goal: Complete another week using scrum and programming pairs. 
+ 
+How to get there: Work together as a group, but each pair responsible for their own user story or task. Estimate how much work can be done on the third user story, in order to realize whether or not implementing functionality is reasonable. 
+  
+**The time you have spent on the course (so keep track of your hours so you can describe the current situation)**
+Now: The group has gathered to write code together on two occasions during the week, still working in pairs. The idea of sitting together was decided on in order to make it easier to help each other also in between the pairs. More time than previously was also dedicated to writing the group reflection, as we’ve finally started breaking some real ground on the code and therefore have more progress to discuss. In total, a more time than previously has been spent on the course, which is in line with the goal of making up for time lost during last week. 
+
+Goal: Finishing up the project within the time frame of a normal 20h sprint. 
+ 
+How to get there: Stick to finishing user stories currently in progress, as opposed to starting new ones - fitting the workload to what the group estimates will be possible to accomplish. 
+ 
+ 
+**The sprint review (either in terms of outcome of the current week's exercise or meeting the product owner)**
+ 
+Now: The last week has gone pretty well. During our sprints we now focus more on completing certain tasks rather than user stories, as the coding complexity makes it too difficult for us to complete entire user stories during a single week. This also allows more coding related to a single user story to happen in parallel, as we can divide user stories more easily within and between programming pairs. During this sprint we have pretty much completed two of the three user stories we’ve been working on (testing is not completed yet) and one of the two tasks related to the third user story.
+Goal: As next sprint is last one, our goal will be to be completely done with the user stories from last week (including testing etc) but not start on any new user stories as there is a risk we won’t have time to complete them and we also need time to prepare our presentation and write our final group reflection.
+ 
+How to get there: We will spend the next days on coding and then allocate the last three days or so on preparing our presentation.
+  
+**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+
+Now: Since we are approaching the end of the course, we have not considered it appropriate to add new tools or technologies at this stage. We are satisfied with GitHub as version control software. As we are pair-programming each pair have their own branch where they are developing the app. It has worked well so far and we hope the merge with the master branch will go smoothly. Our scrum boards we keep at Trello where we have separate boards for product backlog, sprint backlog and a todo-list for things to keep in mind or questions to ask the product owners. We are writing the code in Sublime Text which works fine. 
+ 
+Goal: Now when we approach the final phase we are looking into wrapping it all together. The scrum boards will be reviewed and hopefully completed. The main obstacle we have, though, is probably merging the code in order to get an operating app with all developed functions. Our goal is to have all this ready early so that we can prepare the presentation of the project.
+ 
+How to get there: During next week’s scrum meeting we can discuss the scrum boards and how they have been working. For the merging of the app we need to make some preparations. These include making sure that all branches have working code that have been tested. We also need to look into how we can use Git and GitHub in the best way possible.
+ 
+**Relation to literature and guest lectures (how do your reflections relate to what others have to say?)**
+Now: As previously, the only real relation to the course literature is the continuous application of scrum and other agile practices. No guest lectures have been held.
+Goal: The final reflection will summarize the project as a whole, as opposed to sprint-by-sprint. This will make it easier to relate the process to the literature and present a relevant reflection regarding this. 
+How to get there: Look back at literature and reflect while writing the last reflection.
+
