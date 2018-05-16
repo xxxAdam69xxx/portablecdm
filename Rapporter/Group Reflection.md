@@ -56,7 +56,7 @@ We’ve spent 15 hours on the course during this week. Our goal is to put in 20 
 
 During the Lego exercise we realized the importance of sprint reviews. Although we assume that the sprint reviews during the actual project will be of a different character The sprint review was important in order to adjust the work tempo.
 
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Version control - Git
 Scrum - Github
@@ -218,7 +218,7 @@ Now: The preliminary user stories have been successfully set up through Trello, 
 Goal: Next week will be the first proper sprint, so the goal is to finish all user stories for that week, and later do another review of the week. So getting a more complete understanding of the problems and getting to work on the programming.
 What to do: Meet up with the client. Understand how to properly use the development toolkit. 
 
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Trello
 Now: We have set up a Trello team where we have a created board with our Product Backlog, in other words we have decided not to use google sheet for the product backlog like we said two weeks ago. 
@@ -236,8 +236,6 @@ Goal: Stories should be vertically sliced in way that they are of independent va
 What to do: Will read a bit more about the INVEST and SMART criterias to make sure we have them in mind when slicing stories.
 Also want to note that unfortunately none of us could attend Wednesday exercise in Lindholmen so we can’t comment on that.
 
-
-# WEEKLY REFLECTION, WEEK 4
 
 # WEEKLY REFLECTION, WEEK 4
 
@@ -345,7 +343,7 @@ Now: Our preliminary user stories were reviewed together with the product owner 
 Goal: Next week the goal is to be able to able to show some coding progress to the product owners on wednesday, and potentially to the customer, whenever a new date for a second meeting will be set. Another goal is to make better use of scrum next week, by meeting on monday and setting up even better user stories.
 What to do: To do this we will further refine our user stories to be more thinly sliced and vertical on monday after our meeting. This will allow us to have some working demo on wednesday, hopefully.
 
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Now: Since we haven’t actually started coding yet there hasn’t been any need for an IDE or version control system, although it is something that we will talk about and try to set up soon so that it isn’t an issue when we actually start. No changes to our scrum board either
 Goal: Our goal is to have an IDE and a version control system that everyone understands and know how to use so that we can work efficiently.
@@ -495,7 +493,7 @@ Goal: Because this is our first sprint it is really difficult to estimate how lo
 
 How to get there: while developing we should write down how long time everything actually took so we know for next time.
 
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Now: Listed all the questions we’d like to ask during Wednesday’s counselling. Color-coded the user stories in the backlog to be able to efficiently track relations in between them, providing an easily understood overview. Developed a repo that can be used with GitIgnores. Instead of having one board for each sprint and another board for the product backlog we now have everything in a single trello board. This will help us get a better view of everything that is happening and minimize the risk of a user story getting forgotten.
 
@@ -632,7 +630,7 @@ Goal: Our goal is that for the final sprint we are accurate in our time estimati
 
 How to get there: Weekly meetings to discuss how everything is going have been good so far and thus we will continue with those. Also, we want to further improve our reviews and not to soon jump into the next sprint. 
 
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Now: We used all the tools from last week. Also we forgot to metion that we used Github Desktop to more easily see which files will be uploaded to our repo. This week we also create a branch for every coding pair. We also found out that there is an expo app for our smartphones. Everyone also has a working repo by now.
 
@@ -772,7 +770,7 @@ Goal: Our goal is that for the final sprint we are accurate in our time estimati
  
 How to get there: Weekly meetings to discuss how everything is going have been good so far and thus we will continue with those. Also, we want to further improve our reviews and not to soon jump into the next sprint. This has not changed since last week.
   
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Now: Since we are approaching the end of the course, we have not considered it appropriate to add new tools or technologies at this stage. Therefore we have continued to use the same tools and technologies since last week. Our goal to use the expo mobile app has not been prioritized, since Android Studio, although cumbersome, works well, and we have focused more on the code.
  
@@ -905,7 +903,7 @@ Goal: As next sprint is last one, our goal will be to be completely done with th
  
 How to get there: We will spend the next days on coding and then allocate the last three days or so on preparing our presentation.
   
-**Test practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
+**Best practices for using new tools and technologies (IDEs, version control, scrum boards etc.)**
 
 Now: Since we are approaching the end of the course, we have not considered it appropriate to add new tools or technologies at this stage. We are satisfied with GitHub as version control software. As we are pair-programming each pair have their own branch where they are developing the app. It has worked well so far and we hope the merge with the master branch will go smoothly. Our scrum boards we keep at Trello where we have separate boards for product backlog, sprint backlog and a todo-list for things to keep in mind or questions to ask the product owners. We are writing the code in Sublime Text which works fine. 
  
