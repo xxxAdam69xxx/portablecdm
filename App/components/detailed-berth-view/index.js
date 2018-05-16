@@ -17,7 +17,12 @@ import {
     ListItem
 } from 'react-native-elements';
 
-import { selectBerthLocation } from '../../actions';
+import { selectBerthLocation,
+addFavoriteLocations,
+updatePortCalls,
+appendPortCalls,
+clearCache,
+ } from '../../actions';
 
 import TopHeader from '../top-header-view';
 import colorScheme from '../../config/colors';
@@ -25,6 +30,9 @@ import colorScheme from '../../config/colors';
 class LocationSelection extends Component {
     state = {
         searchTerm: '',
+       // locations: this.props.locations,
+       // favoriteLocations: this.props.favoriteLocations,
+        
     }
 
     sortRecentlyUsed(a, b) {
@@ -85,11 +93,15 @@ class LocationSelection extends Component {
                                     subtitle={`${location.locationType.replace(/_/g, " ")}`}
                                     subtitleStyle={styles.subtitle}
                                     onPress={() => {
+                                        console.log(location.URN);
+                                        this.props.addFavoriteLocations([]);
+                                        this.props.addFavoriteLocations([location.URN]);
+                                        this.props.clearCache();
                                         console.log('pressing the button')
                                         this.props.selectBerthLocation(location);
                                         this.props.navigation.navigate('DetailedBerthList');
-                                       
 
+                                      
                                     }}
                                 />
                             );
@@ -121,7 +133,18 @@ function mapStateToProps(state, ownProps) {
         locations: locationsByLocationType (state, 'BERTH'),
         loading: state.location.loading,
         operations: state.portCalls.selectedPortCallOperations,
+        favoriteLocations: state.favorites.locations,
     }
 }
 
-export default connect(mapStateToProps, { selectBerthLocation })(LocationSelection);
+export default connect(mapStateToProps, { 
+    updatePortCalls,
+    selectBerthLocation,
+    addFavoriteLocations,
+    appendPortCalls,
+    clearCache,
+
+})(LocationSelection);
+
+
+

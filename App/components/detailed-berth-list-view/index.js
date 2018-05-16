@@ -36,7 +36,6 @@ class PortCallList extends Component {
         searchTerm: '',
         refreshing: false,
         numLoadedPortCalls: 20,
-        locations: this.props.locations,
     }
 
     componentWillMount() {
@@ -78,9 +77,14 @@ class PortCallList extends Component {
     }
 
     render() {
-        const {navigation, showLoadingIcon, portCalls, selectPortCall, locations} = this.props;
+        const {navigation, showLoadingIcon, portCalls, selectPortCall, onPress} = this.props;
         const {navigate} = navigation;
-        const {searchTerm} = this.state;
+        const { locations, searchTerm } = this.state;
+
+            // Quick fix for having 1 element with null value
+        if (portCalls.length === 1) {
+            portCalls.splice(0,1);
+        }
 
 
         return(
@@ -116,11 +120,14 @@ class PortCallList extends Component {
                                     // rightTitle={portCall.stage ? portCall.stage.replace(/_/g, ' ') : undefined}
                                     // rightTitleStyle={[styles.subTitleStyle, {fontSize: 9}]}
                                     onPress={() => {
+                   
                                         //console.log(JSON.stringify(portCall.vessel));
                                         selectPortCall(portCall);
+                                        this.props.updatePortCalls();
                                         navigate('TimeLine')
                                     }}
                                     onLongPress={() => {
+
                                         Alert.alert(
                                             'Favorite ' + portCall.vessel.name,
                                             'What would you like to do?',
@@ -197,13 +204,16 @@ class PortCallList extends Component {
         return 0;
     }
 
-search(portCalls, searchTerm) {
+    search(portCalls, searchTerm) {
         let { filters } = this.props;
-
+        
         return portCalls.filter(portCall => {
-            return (portCall.vessel.name.toUpperCase().includes(this.props.berth.name)); 
-            	
-        });
+            return (portCall.vessel.name.toUpperCase().includes(searchTerm.toUpperCase()) ||
+            portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
+            portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
+            (!portCall.stage || filters.stages.includes(portCall.stage));
+        }).sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
+        .slice(0, this.state.numLoadedPortCalls);
     }
 }
 
@@ -257,6 +267,7 @@ function mapStateToProps(state) {
         filters: state.filters,
         error: state.error,
         isAppendingPortCalls: state.cache.appendingPortCalls,
+        favoriteLocations: state.favorites.locations,
         //location: state.selectBerthLocation
     }
 }
