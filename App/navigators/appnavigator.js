@@ -32,20 +32,10 @@ const BerthViewNavigator = StackNavigator({
 
 const DetailedBerthViewNavigator = StackNavigator({
     DetailedBerths: { screen: DetailedBerths }, // THIS SHOULD BE FIRST!!
+    DetailedBerthList: { screen: DetailedBerthList },
 }, {
     headerMode: 'none'
 });
-
-const DetailedBerthListNavigator = StackNavigator({
-  TimeLineDetails: {screen:DetailedBerthList},
-  StateDetails: { screen: StateDetails},
-  FavoriteStates: { screen: StateList },
-  SelectFavoriteStatesTimeLine: { screen: SelectFavoriteState },
-  SendPortCall: { screen: SendPortCall },
-}, {
-  headerMode: 'none',
-});
-
 
 const TimeLineNavigator = StackNavigator({
   TimeLineDetails: {screen: TimeLineView},
@@ -85,7 +75,6 @@ const MainNavigator = DrawerNavigator({
     PortCalls: { screen: PortCallListNavigator }, // THIS SHOULD BE FIRST!!
     Berths: { screen: BerthViewNavigator }, 
     DetailedBerths: { screen: DetailedBerthViewNavigator }, 
-    DetailedBerthList: { screen: DetailedBerthListNavigator },
     TimeLine: {screen: TimeLineNavigator},
     FavoriteStatesSideMenu: { screen: StateList },
     FavoriteStatesInit: { screen: InitiatePortCallNavigator },
