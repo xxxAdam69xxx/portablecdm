@@ -1,20 +1,20 @@
 what do I want to learn or understand better?
-Now: I have made some good progress from last weeks learning goal and I now have a better understanding of each component. But I still lack a good understanding of merging different branches of github and making my changes work with my teammates changes.
-Goal: I want to learn how to merge branches in an effective way
-What to do: Read about merging an aboutgithub, try and merge different branches.
-how can I help someone else, or the entire team, to learn something new?
+Now: I now have some better experience with merging branches, but it still seems kind of messy to me. 
+Goal: I want to learn more about scrum in a bigger project that involves daily work.
+What to do: Apply scrum in our next project
 
-Now: During this sprint I have helped my teammates understand the inner workings of the app, more specifically the navigator component and how to add new views, and items to the side menu.
-Goal: To further help my teammates understand the app so that the can succeed in their sprint goals
-What to do: Explain to the different sprint teams which part of the code is relevant for them, what they can do to change it and how to go about it. Share my code with them as an example
+how can I help someone else, or the entire team, to learn something new?
+Now: I have helped my teammates to get their views up and working, and by putting our knowledge together we’ve made some great advances.
+Goal: To help my team understand what needs to be done in order to merge our branches
+What to do: Teach my team the basics of merging different branches.
 
 what is my contribution towards the team’s application of scrum?
-Now: Our user story was actually badly specified, but me and my sprint mate figured out a way to phrase it better and to divide into more specific tasks. It turned out our user story already existed in one way, but we added it in a better way.
-Goal: For this weeks sprint, I want to help my team respecify their tasks so that they can achieve more with their user story.
-What to do: Help my teammates specify better tasks
+Now: This week I’ve further suggested tasks that can used to split up a user story. Furthermore, I’ve helped my team by identifiying tasks across different user stories that are similar and developed a practice for implementing those tasks.
+Goal: I want to help my team critically discuss how we’ve estimated our time needed for completing user stories. In my opinion, we’ve vastly overestimated the amount of user stories that we would be able to do during these 8 sprints. I want to have a critical discussion about how we can get better in applying estimation in our next projects.
+What to do: Sit down and discuss the problems with our estimations.
 
 what is my contribution towards the team’s deliveries? That means that for the personal learning objective you will each week write down what you have achieved in relation to last week's ambition (technologies, concepts and skills learnt as well as how this was achieved), what you would like to achieve for the next week and how to make the change happen. The first week of the course you describe the current situation by motivating a learning objective. It is perfectly fine to change objective/s each week as long as you can motivate the change and you evaluate the outcome of the previous week (e.g. describing the current situation).
-Now: I think I’ve found a good way of learning the code. Mainly I use a mix of trial and error, googling and intuitively trying to backwards engineer code sections. I now want to help my team members understand the code, and more importantly, how to learn how to understand the code.
-Goal: Explain to my team how they should go about learning the code.
-What To do: Show them how I do it, show them the reasoning behind my code.
+Now: I’ve now helped my team with setting up a new view and side menu items, so I consider last weeks goal completed. My last learning objective is to find a systematic way of estimating user stories that doesn’t involve complete guesswork.
+Goal: Find a systematic way of estimating time needed to complete a user story within an unfamiliar code base.
+What To do: Look through our earlier estimations and break down what assumptions we were using when making them. Then redo the estimations according to more reasonable assumptions.
 
