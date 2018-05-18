@@ -101,7 +101,6 @@ export const updatePortCallIds = (lastUpdated) => {
             const contentType = getState().settings.instance.contentType;
             const headers = connection.username ? createLegacyHeaders(connection, contentType) : createTokenHeaders(token, contentType);
             var subtitles = {};
-            console.log(portCallList.length);
             async function processShit() {
                 var promises = [];
                 for (let aPortCall of portCallList) {
@@ -139,16 +138,12 @@ export const updatePortCallIds = (lastUpdated) => {
                             else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ACTUAL") {subtitle =  "Actual ETA: ";}
                             else if (res[0].stateDefinition == "Arrival_Vessel_TrafficArea" && res[0].timeType == "ESTIMATE") {subtitle =  "Estimated ETA: ";}
                             subtitle += d;
-                            console.log(subtitle);
-                            console.log(portCallId);
-                            subtitles[portCallId] = subtitle;
-                            console.log(subtitles[portCallId]);
+                            subtitles[res[0].portCallId] = subtitle;
                         }
                     });
                     promises.push(pls);
                 }
                 await Promise.all(promises);
-                console.log(subtitles);
                 dispatch({ type: types.RETRIEVE_ETA, payload: subtitles });
             }
             processShit();
