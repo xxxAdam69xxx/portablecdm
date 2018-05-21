@@ -114,6 +114,24 @@ class SideMenu extends Component {
                         }}
                     />
 
+                            <ListItem
+                        containerStyle={activeItemKey === 'DetailedBerths' ? [styles.menuContainer, styles.selectedContainer] : styles.menuContainer}
+                        leftIcon={{
+                            name: 'home',
+                            color: 'white'
+                        }}
+                        hideChevron
+                        underlayColor={colorScheme.secondaryColor}
+                        title={
+                            <View style={styles.textContainer}>
+                                <Text style={canBeAccessedEverywhereExceptOnLogin}>Detailed Berth View</Text>
+                            </View>
+                        }
+                        onPress={() => {
+                            if(activeItemKey !== 'Login') navigate('DetailedBerths');
+                        }}
+                    />
+
                     {true &&<ListItem
                         containerStyle={activeItemKey === 'FavoriteStatesSideMenu' /* TODO: Change color when selected */ ? [containerStyle, styles.selectedContainer] : containerStyle}
                           leftIcon={{

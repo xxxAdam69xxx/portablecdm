@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {
@@ -9,8 +8,7 @@ import {
     appendPortCalls,
     bufferPortCalls,
     setError,
-    retrieveETA,
-    } from '../../actions';
+ } from '../../actions';
 
 import {
     View,
@@ -33,7 +31,6 @@ import colorScheme from '../../config/colors';
 import TopHeader from '../top-header-view';
 import { getDateTimeString } from '../../util/timeservices';
 
-
 class PortCallList extends Component {
     state = {
         searchTerm: '',
@@ -42,7 +39,7 @@ class PortCallList extends Component {
     }
 
     componentWillMount() {
-        this.loadPortCalls = this.loadPortCalls.bind(this)
+        this.loadPortCalls = this.loadPortCalls.bind(this);
         this._appendPortCalls = this._appendPortCalls.bind(this);
         this.loadPortCalls()
             .then(this.props.bufferPortCalls);
@@ -53,17 +50,13 @@ class PortCallList extends Component {
             if(this.props.error.hasError) {
                 navigate('Error');
             }
-        })
-            .then(this.props.retrieveETA(this.props.portCalls))
-        	.then(() => this.forceUpdate());
+        });
     }
 
     _appendPortCalls() {
         let { portCalls, appendPortCalls, isAppendingPortCalls } = this.props;
         if (portCalls.length > 0 && !isAppendingPortCalls) {
-            return appendPortCalls(portCalls[portCalls.length - 1])
-            .then(this.props.retrieveETA(this.props.portCalls))
-            .then(() => this.forceUpdate());
+            return appendPortCalls(portCalls[portCalls.length - 1]);
         }
     }
 
@@ -84,48 +77,21 @@ class PortCallList extends Component {
     }
 
     render() {
-        const {navigation, showLoadingIcon, portCalls, selectPortCall, subtitles} = this.props;
+        const {navigation, showLoadingIcon, portCalls, selectPortCall, onPress} = this.props;
         const {navigate} = navigation;
-        const {searchTerm} = this.state;
+        const { locations, searchTerm } = this.state;
 
-
-        // Quick fix for having 1 element with null value
+            // Quick fix for having 1 element with null value
         if (portCalls.length === 1) {
             portCalls.splice(0,1);
         }
 
 
-
         return(
             <View style={styles.container}>
-                <TopHeader title="Port Calls" navigation={this.props.navigation} firstPage/>
+                <TopHeader title={this.props.berth.name} navigation={this.props.navigation} firstPage/>
                 {/*Render the search/filters header*/}
-                <View style={styles.containerRow}>
-                    <SearchBar
-                        autoCorrect={false}
-                        containerStyle = {styles.searchBarContainer}
-                        showLoadingIcon={showLoadingIcon}
-                        clearIcon
-                        inputStyle = {{backgroundColor: colorScheme.primaryContainerColor}}
-                        lightTheme
-                        placeholder='Search by name, IMO or MMSI number'
-                        placeholderTextColor = {colorScheme.tertiaryTextColor}
-                        onChangeText={text => this.setState({searchTerm: text})}
-                        textInputRef='textInput'
-                    />
-                    <Button
-                        containerViewStyle={styles.buttonContainer}
-                        small
-                        icon={{
-                            name: 'filter-list',
-                            size: 30,
-                            color: colorScheme.primaryTextColor,
-                            style: styles.iconStyle,
-                        }}
-                        backgroundColor = {colorScheme.primaryColor}
-                        onPress= {() => navigate('FilterMenu')}
-                    />
-                </View>
+            
 
                 {/*Render the List of PortCalls*/}
                 <ScrollView
@@ -141,7 +107,7 @@ class PortCallList extends Component {
                     <List>
                         {
 
-                        this.search(portCalls, searchTerm, subtitles).map( (portCall) => (
+                            this.search(portCalls, searchTerm).map( (portCall) => (
                                 <ListItem
                                     roundAvatar
                                     avatar={portCall.vessel.photoURL ? {uri: portCall.vessel.photoURL} : null}
@@ -149,16 +115,19 @@ class PortCallList extends Component {
                                     title={portCall.vessel.name}
                                     badge={{element: this.renderFavorites(portCall)}}
                                     titleStyle={styles.titleStyle}
-                                    subtitle={this.props.subtitles[portCall.portCallId]}
+                                    subtitle={getDateTimeString(new Date(portCall.startTime))}
                                     subtitleStyle={styles.subTitleStyle}
                                     // rightTitle={portCall.stage ? portCall.stage.replace(/_/g, ' ') : undefined}
                                     // rightTitleStyle={[styles.subTitleStyle, {fontSize: 9}]}
                                     onPress={() => {
-                                        console.log(JSON.stringify(portCall.vessel));
+                   
+                                        //console.log(JSON.stringify(portCall.vessel));
                                         selectPortCall(portCall);
+                                        this.props.updatePortCalls();
                                         navigate('TimeLine')
                                     }}
                                     onLongPress={() => {
+
                                         Alert.alert(
                                             'Favorite ' + portCall.vessel.name,
                                             'What would you like to do?',
@@ -187,7 +156,6 @@ class PortCallList extends Component {
                     </List>
                 </ScrollView>
             </View>
-
         );
     }
 
@@ -236,54 +204,19 @@ class PortCallList extends Component {
         return 0;
     }
 
-    search(portCalls, searchTerm, subs) {
+    search(portCalls, searchTerm) {
         let { filters } = this.props;
-        if(Object.keys(subs).length > 0){
-                    return portCalls.filter(portCall => {
+        
+        return portCalls.filter(portCall => {
             return (portCall.vessel.name.toUpperCase().includes(searchTerm.toUpperCase()) ||
             portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
             portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
-            (!portCall.stage || filters.stages.includes(portCall.stage)); 
-        }).sort((a,b) => {
-                        if (subs[a.portCallId] != undefined && subs[b.portCallId] != undefined){
-                        var aSub = subs[a.portCallId].split(": ");//0 is type of state, 1 is date and time.
-                        var bSub = subs[b.portCallId].split(": ");
-                        aSub[1] = new Date(aSub[1]);
-                        bSub[1] = new Date(bSub[1]);
-                        if (aSub[0] == "Actual N.O.R" && bSub[0] == "Actual N.O.R") return aSub[1]-bSub[1];
-                        else if (aSub[0] == "Actual N.O.R") return -1;
-                        else if (bSub[0] == "Actual N.O.R") return 1;
-                        else if (aSub[0] == "Estimated N.O.R" && bSub[0] == "Estimated N.O.R") return aSub[1]-bSub[1];
-                        else if (aSub[0] == "Estimated N.O.R") return -1;
-                        else if (bSub[0] == "Estimated N.O.R") return 1;
-                        else if (aSub[0] == "Possible N.O.R" && bSub[0] == "Possible N.O.R") return aSub[1]-bSub[1];
-                        else if (aSub[0] == "Possible N.O.R") return -1;
-                        else if (bSub[0] == "Possible N.O.R") return 1;
-                        else if (aSub[0] == "Actual ETA" && bSub[0] == "Actual ETA") return aSub[1]-bSub[1];
-                        else if (aSub[0] == "Actual ETA") return -1;
-                        else if (bSub[0] == "Actual ETA") return 1;
-                        else if (aSub[0] == "Estimated ETA" && bSub[0] == "Estimated ETA") return aSub[1]-bSub[1];
-                        else if (aSub[0] == "Estimated ETA") return -1;
-                        else if (bSub[0] == "Estimated ETA") return 1;
-                        else return 0;
-                    }
-                    else return 0;
-                    })
-        ;
-        }
-        else {
-            return portCalls.filter(portCall => {
-            return (portCall.vessel.name.toUpperCase().includes(searchTerm.toUpperCase()) ||
-            portCall.vessel.imo.split('IMO:')[1].startsWith(searchTerm) ||
-            portCall.vessel.mmsi.split('MMSI:')[1].startsWith(searchTerm)) &&
-            (!portCall.stage || filters.stages.includes(portCall.stage)); 
-        });
-        }
-
+            (!portCall.stage || filters.stages.includes(portCall.stage));
+        }).sort((a,b) => this.sortFilters(a,b))//.sort((a,b) => a.status !== 'OK' ? -1 : 1)
+        .slice(0, this.state.numLoadedPortCalls);
     }
-
-
 }
+
 
 const styles = StyleSheet.create({
     container: {
@@ -325,6 +258,7 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state) {
     return {
+        berth: state.berths.selectedLocation,
         portCalls: state.cache.portCalls,
         cacheLimit: state.cache.limit,
         favoritePortCalls: state.favorites.portCalls,
@@ -333,11 +267,10 @@ function mapStateToProps(state) {
         filters: state.filters,
         error: state.error,
         isAppendingPortCalls: state.cache.appendingPortCalls,
-        subtitles: state.portCalls.subtitles
+        favoriteLocations: state.favorites.locations,
+        //location: state.selectBerthLocation
     }
 }
-
-    
 
 export default connect(mapStateToProps, {
     updatePortCalls,
@@ -347,5 +280,5 @@ export default connect(mapStateToProps, {
     toggleFavoriteVessel,
     bufferPortCalls,
     setError,
-    retrieveETA,
+    //selectBerthLocation,
 })(PortCallList);
