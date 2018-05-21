@@ -22,6 +22,7 @@ import BerthList            from '../components/berth-list-view';
 import BerthTimeLine        from '../components/berth-timeline-view';
 import DetailedBerths       from '../components/detailed-berth-view';
 import DetailedBerthList       from '../components/detailed-berth-list-view';
+import Calculator           from '../components/calculator-view';
 
 const BerthViewNavigator = StackNavigator({
     BerthList: { screen: BearthList }, // THIS SHOULD BE FIRST!!
@@ -47,13 +48,19 @@ const DetailedBerthListNavigator = StackNavigator({
 });
 
 
+const SendPortCallNavigator = StackNavigator({
+    InitPortCall: { screen: SendPortCall },
+    Calculator: { screen: Calculator },
+}, {
+    headerMode: 'none'
+});
 
 const TimeLineNavigator = StackNavigator({
   TimeLineDetails: {screen: TimeLineView},
   StateDetails: { screen: StateDetails},
   FavoriteStates: { screen: StateList },
   SelectFavoriteStatesTimeLine: { screen: SelectFavoriteState },
-  SendPortCall: { screen: SendPortCall },
+  SendPortCall: { screen: SendPortCallNavigator },
 }, {
   headerMode: 'none',
 });
@@ -77,7 +84,7 @@ const SettingsNavigator = StackNavigator({
 const InitiatePortCallNavigator = StackNavigator({
     FavoriteStatesInit: { screen: StateList },
     SelectFavoriteStateInit: { screen: SelectFavoriteState },
-    InitPortCall: { screen: SendPortCall },
+    InitPortCall: { screen: SendPortCallNavigator },
 }, {
     headerMode: 'none'
 });
@@ -87,6 +94,7 @@ const MainNavigator = DrawerNavigator({
     Berths: { screen: BerthViewNavigator }, 
     DetailedBerths: { screen: DetailedBerthViewNavigator }, 
     DetailedBerthList: { screen: DetailedBerthListNavigator },
+    Berths: { screen: BerthViewNavigator },
     TimeLine: {screen: TimeLineNavigator},
     FavoriteStatesSideMenu: { screen: StateList },
     FavoriteStatesInit: { screen: InitiatePortCallNavigator },
