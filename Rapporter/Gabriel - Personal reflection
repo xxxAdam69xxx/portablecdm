@@ -1,0 +1,145 @@
+Weekly reflection, week 3
+
+What do I want to learn or understand better?
+
+Where I am: During the last two weeks I read “Scrum and XP from the Trenches - 2nd Edition.”, “Breaking a feature into tasks” and “Maintaining the full view of a complex system” which really helped me understand more about scrum.
+I also read a bit in the book “Pro Git” which helped me understand more about what Git is, why it is so useful and how branching/merging works.
+Lastly I read the scenario that described how the harbour worked although it still is a bit confusing.
+Where I want to be: I still want even more knowledge about agile processes (not only scrum) and Git. This week I also realized that I will have to learn a lot about Android Studios. Once I have enough knowledge within these three things I hope to be able to be an effective team member that can contribute towards the project and understand what others are doing as well. I am also looking forward to our first meeting with the contact person to understand more about our project.
+How to get there: There is still a lot of literature about agile, git and Marine IT that I haven’t read but me goal is to eventually come around to read everything that I think seems interesting/useful. In order to understand how to use Android Studios I will have do some research myself and ask other team members.
+
+How can I help someone else, or the entire team, to learn something new?
+
+Where I am: I found “Scrum and XP from the Trenches” really handy so I decided to write a summary which a shared with the others in my team, hopefully they will find it useful. Now when somebody has a question about scrum I feel like I am often able to give them an answer. 
+Where I want to be: For next week I will hopefully have Android Studios set up and ready to go, this will allow me to help my team by actually being able to code! :) When I have the time to read more literature I will try to share the knowledge with my team.
+How to get there: From what I have heard from others, it seems a bit difficult to set up Android Studios but hopefully with some blood, sweat and tears I’ll manage by next week. I will obviously help others in doing the same if I can and ask for help when I need to.
+
+What is my contribution towards the team’s application of scrum?
+
+Where I am: I was this week elected as the team’s Scrum Master. I find scrum really interesting and I am looking forward to helping my team follow the framework. Today we also created a team on Trello and I helped in configuring the different boards I giving my thoughts on how we should use Trellos functions. I also gave some thoughts on how to slice and formulate user stories when we wrote some down (though a lot of them will probably change by the time we actually have our first spring with coding).
+Where I want to be: I hope on being a good Scrum Master and managing to incorporate the most important scrum tools to our team in an effective way and making sure the other team members also understand how to use Scrum and find it meaningful.
+How to get there: Reading more literature about Scrum and taking notes of what I think we should incorporate in our team.
+
+What is my contribution towards the team’s deliveries? 
+
+Where I am: Hopefully as Scrum Master I will be able to indirectly facilitate the delivery of the product as intended by the contact owner. Unfortunately we haven’t talked with the contact person yet and I haven’t gotten android studio to work on my computer yet so I haven’t been able to contribute with any actual code though.
+Where I want to be: For next week, I want everyone to have a computer ready for coding a productive meeting with the contact person so we can write some good first user stories so that we can have a first real Sprint Meeting.
+How to get there: Feel like this has already been mentioned.
+
+--------------------------------------------------------------------------------------------------------
+
+Weekly reflection, week 4
+
+What do I want to learn or understand better?
+
+Where I am: I understand more about the project and what our actor wants but there are still details that I am missing. I also understand more about the working environment (even though im still struggling to have it work on my laptop).
+
+Where I want to be: I want to fully understand what our actor does as well as the other actors so I know how they interact and what information they need from each other. I want to understand what problems Terminal 1 today experiences so that we can discuss them with the product owner and try to solve them. 
+
+How to get there: Talk more with the the actors, other teams and read the scenario more carefully.
+
+How can I help someone else, or the entire team, to learn something new?
+Where I am: This Wednesday I attended the Scrum of Scrums and I was able to share some of the things discussed to my other team members. I was also able to help one of my team members a bit with setting up the app (even though it’s not working for myself).
+Where I want to be: As a Scrum Master I want to help my team by setting up a good first “real” sprint next week.
+How to get there: Follow what I have learnt about Scrum
+What is my contribution towards the team’s application of scrum?
+Where I am: I have now set up a weekly schedule for our team. Our plan is to have our sprint meetings on Thursdays and backlog refinement meetings on Wednesdays in conjunction with the occasion at Lindholmen. We will even have weekly sprint evaluation meetings, but we will see if it’s better to have them on Wednesdays or Thursdays. I feel a bit like we should have done a bit more progress by now, hopefully we can catch up next week.
+Where I want to be: Hope we manage to find a good routine and that everyone feels that it is working.
+How to get there: Having good communication with my team members.
+What is my contribution towards the team’s deliveries? same as last week
+Where I am: Hopefully as Scrum Master I will be able to indirectly facilitate the delivery of the product as intended by the contact owner. Unfortunately we haven’t talked with the contact person yet and I haven’t gotten android studio to work on my computer yet so I haven’t been able to contribute with any actual code though.
+Where I want to be: For next week, I want everyone to have a computer ready for coding a productive meeting with the contact person so we can write some good first user stories so that we can have a first real Sprint Meeting on Wednesday/Thursday
+How to get there: Feel like this has already been mentioned.
+
+--------------------------------------------------------------------------------------------------
+Weekly reflection week 5
+
+What do I want to learn or understand better?
+Where I am: Last week what I wanted to understand better was the scenario, how different actors are connected and most important what needs our terminal has. After a very productive meeting with the terminal on monday together with my team I feel like I have managed to reach my goal and have a good understanding of the situation. Last week I also wanted to understand more about the working environment which I now do and with the help of Konrad I was able to get it to work on my laptop. Unfortunately the environment is still not perfect though and there are still some things we need to fix (everyone has to use the same repo and we need to add some gitignores).
+Where I want to be: For next week, once I have a properly set up working environment, I hope to learn about the structure of the app and the way things are coded in order to be able to do some coding myself.
+How to get there: Set up the repo properly and start working on my user story in order to learn while trying to code.
+
+How can I help someone else, or the entire team, to learn something new?
+Where I am: By closely reading the scenario, being active during the meeting with the terminal and talking to other teams i feel like i have gotten a really good understanding of the scenario and i have been able to help others in my team to understand some details and discuss what we should focus on. While slicing user stories I have also been able to help others a bit with understanding how stories should be sliced.
+Where I want to be: Though I am pretty good at helping others with things regarding scrum, I haven’t really been able to help others much with programming. Hopefully I will be able to help my team members in this area as well but that may still take some time.
+How to get there: Spend a lot of time coding and doing research online / asking others whenever I encounter a problem.
+
+What is my contribution towards the team’s application of scrum?
+Where I am now: This week I have been active in creating, prioritizing and delegating user stories. I have also helped create acceptance criterias and a definition of done using checklists on trello and explained to team members how to use these checklist. After showing our trello to Håkan and getting some feedback I have also made some changes to it. Instead of having one board for each sprint we now have a single scrum board where we even have our product backlog. This way it’s easier to get an overview of everything that is happening and not having run the risk of a user story getting forgotten. On top of that I have also explained to my team members how to use labels to mark which user stories belong to the same epic and numbers to mark which task belong to each user story.
+Where I want to be: Because everyone is busy with other things as well we will not be able to have daily scrums each day, however I hope to be able to assemble at least one person from each “coding pair” on monday to have a daily scrum so we can help each others.
+How to get there: I have book a group room on monday and during the weekend I plan on asking others how things have gone and see if there is interest in such a meeting.
+
+What is my contribution towards the team’s deliveries? 
+Where I am now: I have helped my team reach our goals by doing the things I have mentioned above. The way in which i haven’t contributed yet though is through actually coding. This is not so strange though since we are doing our first real sprint this week.
+Where I want to be: I want to continue being helpful by fulfilling my responsibilities as scrum master as well as by delivering some useful code together with Herman who is my coding buddy for this sprint.
+How to get there: Keep good communication with my team members and trying my best when coding.
+
+----------------------------------------------------------------------------------------------------------
+Weekly reflection week 6
+
+What do I want to learn or understand better?
+Where I am: Last week I wanted to have a properly working environment which I now have. I am also more familiar with how the app is structured and able to do a bit of coding. 
+Where I want to be: For next week I want to be better at coding and properly be able to push commits to the branch Herman and I are working on.
+How to get there: Continue coding.
+
+How can I help someone else, or the entire team, to learn something new?
+Where I am: By talking with other Scrum Masters and the product owner I have found out things that affect two of our user stories (ours and Alexanders and Adams) regarding the relevance of the function and perhaps being able to find an easier solution.
+Where I want to be: (same as last week) Though I am pretty good at helping others with things regarding scrum and user stories, I haven’t really been able to help others much with programming. Hopefully I will be able to help my team members in this area as well but that may still take some time.
+How to get there: (same as last week) Spend a lot of time coding and doing research online / asking others whenever I encounter a problem.
+
+What is my contribution towards the team’s application of scrum?
+Where I am now: Unfortunately none of the user stories set up from last week were successfully completed during the sprint, something I as a scrum master should try to avoid in the future. The reason the user stories didn’t get completed could be either that our actual velocity and/or our estimates are too low. Another reason could also be that we are still pretty inexperienced in coding with Java Script and with codes that other ppl have already developed and that some of us also had to spend time setting up the working environment. How to fix this problem is something I discussed together with the team members but our conclusion was that we still are satisfied with the size of our users tories and number of ppl working together on each user story and we will thus not be changing this. Instead we will just try to increase our velocities and accept the risk user stories do not get completed during a single one week sprint. We did however manage to have a daily scrum with everybody on Monday which was my goal from last week.
+Where I want to be: During last week not many of us used the tasks in the trello to keep track of progress. As a scrum master I would like to see more of us doing it though.
+How to get there: Reminding ppl through direct messages.
+
+What is my contribution towards the team’s deliveries? 
+Where I am now: As mentioned my working environment is now working perfectly working. Together with Herman we were also able to do a bit of coding on our user story. However after having talked with the product owners again the user story has changed a bit.
+Where I want to be: I want to complete the user story by next wednesday.
+How to get there: Working together with Herman.
+
+------------------------------------------------------------------------------------------------
+Weekly reflection week 7
+
+What do I want to learn or understand better?
+Where I am: During the last week I have learned more about coding and how to use git myself. I can now code and use git properly.
+
+Where I want to be: Become even better at coding and using git
+
+How to get there: Continue coding and working.
+
+How can I help someone else, or the entire team, to learn something new?
+Where I am: I feel like I am now good enough at coding and familiar with the app so I can sometimes help others with their tasks, like explaining which files they should be working on.
+Where I want to be: I want to refresh the team on how to properly split user stories into tasks using SMART.
+How to get there: Talking about it next Monday.
+What is my contribution towards the team’s application of scrum?
+Where I am now: The last sprint has gone similar to the one before. I think everyone in the group has now found a good routine so as a scrum master I am glad (seeing each others on Mondays and Wednesdays). My goal last week was to split user stories into tasks a bit more and now some, but not all current US are split up into tasks. One of the user stories I split into two tasks made it possible for another coding pair to have something to work on.
+Where I want to be: Continue splitting user stories into tasks and getting better at making sure that everyone has something to work and doesnt have to wait until wednesday if they finish earlier.
+How to get there: Checking with ppl more often and think of ways to divide user stories between multiple coding pairs
+What is my contribution towards the team’s deliveries? 
+Where I am now: During the last week Herman and I have almost completed the first task for our new user story we started on. Since Adam and Alexander did not have a user story to work on this week, we decided to give them one of the tasks related to our user story.
+Where I want to be: Complete the entire user story together with Herman, Adam and Alexander
+How to get there: Working together with Herman and coordinating and helping Adam and Alexander.
+
+---------------------------------------------------------------------------------------------
+Weekly reflection week 8
+
+What do I want to learn or understand better?
+Where I am: I’ve continued learning more about coding and how to use git. For example I now know more about how to properly code the navigating functions. I have also learnt some last things about what is important for the final presentation.
+
+Where I want to be: Since this will be our last sprint, I want to spend some time on rehearsing the tasks the product owners might ask us to do during the demo so that I am well prepared. 
+
+How to get there: Playing around with the app.
+
+How can I help someone else, or the entire team, to learn something new?
+Where I am: I was able to talk a bit more with my team members about the importance of SMART tasks and I think it has helped our group to be more productive as splitting user stories between ppl then gets easier and everyone feels like they’re contributing more. I have also been monitoring a bit on how the task that Adam and Alexander have been working on since Herman and I are working on the same user story and it’s important that we are coordinated. I also went to Håkans explanation of how the presentation next week would be and I could later repeat what he had said to the members of my group.
+Where I want to be: One of the things we will do during the next sprint is to test each other’s code. Since completing the user stories have taken a long time this will be the first time we do it. Therefore I will do my best to make sure that everyone knows how to follow the acceptance criteria and definitions of done. This is something we also talked about this Wednesday.
+How to get there: Checking up with ppl and asking how testing has been going.
+What is my contribution towards the team’s application of scrum?
+Where I am now: Many of the things a wrote above can be said here but I will try to not repeat myself. I feel like splitting the user story between two pairs was very successful. Making the team put more focus on splitting user stories in manageable tasks has really helped many of us be more productive and always have something to work on.   
+Where I want to be: During the next sprint we will focus on getting everything ready for the presentation. In order to get all of our user stories properly tested I delegated who should test what and explained how the testing should be done. I will also try to find ways to delegate other small tasks related to getting everything ready for the presentation.
+How to get there: On monday when we see each other I will have a list of tasks to do ready so we can go through them and make sure that everything gets handled.
+What is my contribution towards the team’s deliveries? 
+Where I am now: The user story that Adam, Alexander, Herman and I have been worked on is basically complete. Apart from helping code, I have focused on coordinating us so that the four of us work well together by delegating task between us.
+Where I want to be: I want to make sure that the things that Adam and Alexander have worked on properly works together with what Herman and I have programmed. I will also start writing a bit on the final team report and test Emils and Arvids code as I am one of the ones responsible for testing it.
+How to get there: Talking with the three of them and make sure that everybody is on the same page.
+
