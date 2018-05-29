@@ -1,0 +1,63 @@
+# What do I want to learn or understand better?
+
+**What I’ve learned**: 
+
+During this project I’ve gained a lot of knowledge in programming and JavaScript, but mainly how to work agile as a team for developing software. Beforehand I had zero knowledge about Scrum and how to work efficiently when developing new or existing software. By applying Scrum and combining it with some XP-practices like pair-programming we managed to achieve a good working flow. At an early stage of the project I used my 20 hours a week to improve my programming skills and knowledge about Scrum, some of the many examples are:
+
+•	How to work closely with a product owner.
+•	The importance of time estimations.
+•	Different roles in a Scrum-based team, such as product owner, scrum-master, developer team etc.
+
+Tools like Trello and GitHub were also implemented in our project, and are something that I personally had not used before. It was both interesting and hard to continue building an already existing codebase, and hopefully our accomplishments gave ideas for future development of the application.  
+
+**What to do for future projects**: 
+
+Reflecting together as a group and individually gave me insight on which tools that might be applicable in future projects. The examples mentioned above are aspects that will most likely be useful in future projects. Due to the relatively short time-frame of the project, we simply did not have enough time to implement some tools, which in a commercial project usually isn’t a problem. Also, time spent at an early stage - to learn about Scrum and getting the existing repository to work for all team members - can be heavily reduced for future projects. This took up a lot of my time, which could have been spent on coding to maintain a steady velocity. Hopefully in a commercial project where people get hired, the Scrum-team will already have existing knowledge about coding, Scrum and agile practices. This will make the process much easier and allow accurate time estimations.
+
+**How to get there**: 
+
+To help members of this course get started with their coding process at an earlier stage, tutorials of how the code base and application works (data flow through reducers etc.) from the creators/creator of the code would have made things easier. For projects where the goal is to develop a new code base, knowing the principles of Scrum and agile practices (which the lectures taught) will be enough to get started.
+
+# How can I help someone else, or the entire team, to learn something new?
+
+**What I’ve helped with**: 
+
+Throughout the project I’ve done my best to help members of the team to improve their knowledge and learn new things. In the beginning, everyone in the team, including myself, did a great job sharing knowledge and making sure everyone is on the same page. At this stage our learning curve was very steep and sharing new knowledge was an important part. The literature I read and the time I spent on understanding the codebase, the application, JavaScript, Scrum and agile practices, made it easier for me to help team members in an efficient way. Together with my pair-programming partner Konrad I could easily benefit from his knowledge and the other way around. 
+
+**What to do for future projects**: 
+
+I feel like helping team members to learn new things was an important part of the project and this course. Since we all had pretty much zero knowledge of software engineering projects and Scrum, sharing knowledge efficiently is a huge part of success. A lot of time were spent on learning about Scrum, JavaScript, GitHub etc., and with the time-frame of 20h per week not that much time could be spent on the actual user stories and tasks. For future projects, assuming the members in the scrum-team have prior knowledge about Scrum and coding, more resources can be allocated to help team members with their user story or task, which will lead to more accurate time estimations.
+
+**How to get there**: 
+
+For projects like this course, where the Scrum-team had insufficient knowledge beforehand, helping members in the team by sharing knowledge should be prioritized to make sure everyone is on the same page. By setting up daily scrums for example, this can be achieved. 
+
+For commercial projects where employees have knowledge about agile development and connected tools, the process of sharing knowledge will be more efficient and will not likely affect the user stories and time estimations.
+
+# What is my contribution towards the team’s application of scrum?
+
+**What I’ve contributed with**: 
+ 
+By attending most meetings and especially “handledningar” on Wednesday, I’ve helped the team to make estimations, specify user stories and set up tools like GitHub and Trello. Discussions with product owners, Jan-Philipp, Håkan and Pontus resulted in an implementation of the state “Notice of Readiness (NOR)” and helped us refine our user stories and achieve our goals. At an early stage of the project my main contributions were related to GitHub and Trello; for example, setting up the repository and the scrum board. After meeting with the customer, I helped refining the user stories to make them fit the INVEST-criteria. A problem we had during the project was the inaccuracy of our time-estimations. Having accurate estimations was something that we realized the importance of. The estimations I helped making were underestimated due to technical difficulties and knowledge gaps.   
+
+**What to do for future projects**: 
+
+I feel like working closely with the products owner/owners and customer/customers generate high quality user stories. Our main problem was, as mentioned above, the inaccuracy of the time-estimates. By taking factors like learning the code base and improving knowledge about JavaScript into reflection these estimations would most likely been more accurate. Accurate estimations would have made the process easier in numerous ways; the scope of the project and what can be promised to the product owners could be estimated more accurately.
+
+**How to get there**: 
+
+By more in depth reflections and reviews at an early stage of the projects, errors that can affect the accuracy of time-estimations can be discovered and eliminated. All estimations should be overestimated by multiplying them with a factor (like 2 or 3) and when experience is built up, this factor can be decreased.  
+  
+# What is my contribution towards the team’s deliveries?
+
+**What I’ve contributed with**: 
+
+Due to technical difficulties, I did not manage to get the code base working fully on my computer and to save further time me and my pair-programming partner Konrad decided to code solely on his computer (also most contributions to GitHub and to the Trello-board). We felt like this wasn’t a big setback since a lot of work were done in pairs. I spent a lot of time gaining knowledge about Scrum and agile practices which helped the team achieve some of our goals in a more efficient way. Together with Konrad I helped finishing our user story (which we found out was more of an Epic). Without going into any detail, it consisted of setting the subtitle in the portcall-view to what we considered to be the most important information for the terminal – the ETA or NOR depending on availability. My contributions regarding the application of Scrum is described in the section above about Scrum contribution. 
+
+**What to do for future projects**: 
+
+Pair-programming is an agile practice that we successfully implemented into our development and that I would recommend in future projects (of course depending on the scale of the project). Prior knowledge of the coding language (in this case JavaScript) would help the coding process and make it easier to contribute. Also, more accessible help to understand the code base would have made the project easier and the contributions more efficient. Besides what I’ve mentioned, I’m satisfied with my contributions – the application of Scrum and in general.  
+
+**How to get there**: 
+
+All team members can benefit from more accessible help. In projects like this one, all contributions will be more effective if those who contribute are knowledgeable; mostly knowledge about the codebase, Scrum and programming in general. By improving my knowledge about these things, I can contribute in future projects in an efficient way.
