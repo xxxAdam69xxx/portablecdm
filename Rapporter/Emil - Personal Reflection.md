@@ -281,7 +281,7 @@ In my opinion, pair programming has been really good and beneficial for the team
 
 In delivering the scrum application to the project, I helped with setting up meetings, dividing user stories into tasks, and helping everyone understanding the context of the project. I have described this more thoroughly in the section about scrum. 
 
-I am also satisfied that I have learned much about JavaScript, React Native and Github. These are qualities that I for sure will have use of in the future. 
+I am also satisfied that I have learned much about JavaScript, React Native and Github. These are qualities that I for sure will have use of in the future. In my opinion, a defined learning objective for each sprint has been good, because then I can keep track of my progress and reflect on what I am learning and why. 
 
 What to do better in a future project:
 
